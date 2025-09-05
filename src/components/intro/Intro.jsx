@@ -14,7 +14,7 @@ const Intro = () => {
       <div className="article">
         <div className="article_box1">
           <div className="title">
-            <p>크림오프 소개</p>
+            <p>회사 소개</p>
           </div>
           <p>
             크림오프는 반려동물과 보호자의 더 나은 삶을 위해 혁신적인 헬스케어

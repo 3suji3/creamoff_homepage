@@ -22,6 +22,14 @@
   justify-content: space-between;
 }
 
+.Hero_container .article_box1 > div:first-child {
+  display: flex;
+  align-items: center;
+  font-size: 0.83vw;
+  color: #3aa1cd;
+  gap: 0.5vw;
+}
+
 .Hero_container .article_box1_p1 {
   font-size: 2.29vw;
   font-weight: 600;

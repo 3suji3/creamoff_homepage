@@ -1,11 +1,10 @@
 import "./App.css";
-import Hero from "./components/Hero/Hero";
+import Hero from "./components/hero/Hero";
 import Intro from "./components/intro/Intro";
 import Service from "./components/service/Service";
-import Brand from "./components/brand/Brand";
-import Result from "./components/result/Result";
 import Conect from "./components/conect/Conect";
 import Footer from "./components/Footer";
+import Partner from "./components/partner/Partner";
 
 function App() {
   return (
@@ -13,8 +12,7 @@ function App() {
       <Hero />
       <Intro />
       <Service />
-      <Brand />
-      <Result />
+      <Partner />
       <Conect />
       <Footer />
     </div>
