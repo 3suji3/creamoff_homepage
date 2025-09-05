@@ -1,74 +1,85 @@
 .Hero_container {
-    width: 100%;
-    height: 56.25vw;
-    background: linear-gradient(165deg, #fff, #acd8ea);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 56.25vw;
+  background: linear-gradient(165deg, #fff, #acd8ea);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Hero_container .article {
-    width: 81.31vw;
-    height: 46.11%;
-    display: flex;
-    justify-content: space-between;
+  width: 81.31vw;
+  height: 46.11%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .Hero_container .article_box1 {
-    width: 44.49%;
-    height: 36.8%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 44.49%;
+  height: 36.8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .Hero_container .article_box1_p1 {
-    font-size: 2.29vw;
-    font-weight: 600;
-    line-height: 2.7vw;
-    margin-bottom: 0vw;
+  font-size: 2.29vw;
+  font-weight: 600;
+  line-height: 2.7vw;
+  margin-bottom: 0vw;
+  align-items: center;
 }
 
 .Hero_container .article_box1_p1 span {
-    color: #3AA1CD;
+  color: #3aa1cd;
 }
 
 .Hero_container .article_box1_p2 {
-    font-size: 1.15vw;
+  font-size: 1.15vw;
+}
+
+.Hero_container .button_container {
+  width: 100%;
+  height: 40.07%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.04vw;
 }
 
 .Hero_container .button_box {
-    width: 100%;
-    height: 18.07%;
-    display: flex;
-    font-size: 1.04vw;
-    text-align: center;
-    gap: 1vw;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-size: 1.04vw;
+  text-align: center;
+  gap: 1vw;
 }
 
 .Hero_container .box1 {
-    width: 42.22%;
-    height: 100%;
-    color: #fff;
-    background-color: #3AA1CD;
-    border-radius: 12px;
-    padding: 0.45% 1.27%;
+  width: 87.8%;
+  height: 100%;
+  color: #fff;
+  background-color: #3aa1cd;
+  border-radius: 12px;
+  padding: 0.45% 1.27%;
 }
 
 .Hero_container .box2 {
-    width: 42.22%;
-    height: 100%;
-    color: #000;
-    background-color: #fff;
-    border-radius: 12px;
-    padding: 0.5% 0.8%;
-}   
+  width: 42.22%;
+  height: 100%;
+  color: #000;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 0.5% 0.8%;
+}
 
-img, span {
-    vertical-align: middle;
+img,
+span {
+  vertical-align: middle;
 }
 
 .Hero_container .article_box2 img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }

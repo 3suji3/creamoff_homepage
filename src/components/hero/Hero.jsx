@@ -15,14 +15,21 @@ const Hero = () => {
             크림오프와 함께 웨어러블 디바이스와 <br />
             AI 기술로 더 나은 반려동물 케어를 경험하세요.
           </p>
-          <div className="button_box">
-            <div className="box1">
-              <img src={GooglePlay} alt="Google Play" />
-              <span>Google Play</span>
+          <div className="button_container">
+            <div className="button_box">
+              <div className="box1">
+                <span>제품 알아보기 →</span>
+              </div>
             </div>
-            <div className="box2">
-              <img src="" alt="AppStore" />
-              <span>App Store</span>
+            <div className="button_box">
+              <div className="box2">
+                <img src={GooglePlay} alt="GooglePlay" />
+                <span>Google Play</span>
+              </div>
+              <div className="box2">
+                <img src="" alt="AppStore" />
+                <span>App Store</span>
+              </div>
             </div>
           </div>
         </div>
