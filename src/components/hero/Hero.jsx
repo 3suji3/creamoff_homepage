@@ -1,16 +1,15 @@
 import "../styles/Hero.css";
-import GooglePlay from "../../assets/img/Hero_1.png";
-import Dog from "../../assets/img/Hero_2.png";
 
 const Hero = () => {
   return (
     <div className="Hero_container">
       <div className="article">
         <div className="article_box1">
-          <div>
-            <img src="" alt="아이콘" />
-            <span>반려동물 헬스케어 혁신</span>
-          </div>
+          <p>
+            복잡함을 지우고, 본질만 남기다.
+            <br />
+            Simplify the Complex.
+          </p>
           <p className="article_box1_p1">
             AI와 웨어러블로 <br />
             <span>반려동물 건강</span>을<br />
@@ -29,7 +28,7 @@ const Hero = () => {
             </div>
             <div className="button_box">
               <div className="box2">
-                <img src={GooglePlay} alt="GooglePlay" />
+                <img src="/img/Hero_1.png" alt="GooglePlay" />
                 <span>Google Play</span>
               </div>
               <div className="box2">
@@ -40,7 +39,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="article_box2">
-          <img src={Dog} alt="dog" />
+          <img src="/img/Hero_2.png" alt="dog" />
         </div>
       </div>
     </div>

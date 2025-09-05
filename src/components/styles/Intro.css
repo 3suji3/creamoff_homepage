@@ -58,18 +58,12 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-}
-
-.Intro_container .content_box {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .Intro_container .bg_box {
   width: 46.41%;
-  height: 100%;
+  height: 45%;
   display: flex;
   align-items: center;
   padding-left: 0.8vw;

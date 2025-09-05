@@ -1,0 +1,52 @@
+.Conect_container {
+  width: 100%;
+  height: 64.95vw;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Conect_container .article {
+  width: 86.14vw;
+  height: 84.56%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.Conect_container .article_box1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Conect_container .article_box1 p {
+  font-size: 1.04vw;
+  text-align: center;
+}
+
+.Conect_container .title {
+  width: 29.55vw;
+  height: 38.75%;
+  background-color: #f0f8fb;
+  border-radius: 24px;
+  border: solid 1px #3aa1cd;
+}
+
+.Conect_container .title p {
+  width: 100%;
+  color: #3aa1cd;
+  font-weight: 600;
+  line-height: 0.52vw;
+}
+
+.Conect_container .article_box2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

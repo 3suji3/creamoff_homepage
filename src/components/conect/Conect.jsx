@@ -1,3 +1,5 @@
+import "../styles/Conect.css";
+
 const Conect = () => {
   return (
     <div className="Conect_container">
@@ -6,9 +8,7 @@ const Conect = () => {
           <div className="title">
             <p>연락처 & SNS</p>
           </div>
-          <div>
-            <p>궁금한 점이 있으시거나 협업을 원하신다면 언제든지 연락주세요</p>
-          </div>
+          <p>궁금한 점이 있으시거나 협업을 원하신다면 언제든지 연락주세요</p>
         </div>
         <div className="article_box2">
           <div>
