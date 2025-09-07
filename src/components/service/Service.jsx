@@ -54,10 +54,11 @@ const Service = () => {
                       <span>보호자용 앱 연동(예정)</span>
                     </div>
                   </div>
+                  </div>
                   <div className="more_button">
                     <p>자세히보기 →</p>
                   </div>
-                </div>
+                
               </div>
             </div>
             <div className="content_box">

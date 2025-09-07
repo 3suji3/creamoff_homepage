@@ -58,13 +58,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 4vw;
+  gap: 2vw;
   margin-top: 0;
 }
 
 .Service_container .content_box {
   width: 90.54%;
   height: 100%;
+  flex: 1;
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -152,4 +153,5 @@ span {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  margin-top: auto;
 }
