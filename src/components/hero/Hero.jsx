@@ -35,7 +35,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="article_box2">
-          <img src="/img/Hero_2.png" alt="dog" />
+          {/* <img src="/img/Hero_2.png" alt="dog" /> */}
+          <video muted autoPlay loop>
+            <source src="/Hero.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
     </div>

@@ -94,7 +94,9 @@ span {
   vertical-align: middle;
 }
 
-.Hero_container .article_box2 img {
-  width: 100%;
+.Hero_container .article_box2 video {
+  width: 720px;
   height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
 }
