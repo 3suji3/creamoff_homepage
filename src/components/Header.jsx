@@ -1,6 +1,12 @@
 import "./styles/Header.css";
 
 const Header = () => {
+  const scrollToSection = (id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  }
   return (
     <div className="header_container">
       <div className="article">
@@ -8,9 +14,9 @@ const Header = () => {
           <img src="/LOGO(svg).svg" alt="logo" />
         </div>
         <div className="header_nav">
-          <p>회사소개</p>
-          <p>솔루션</p>
-          <p>연락처</p>
+          <p onClick={() => scrollToSection("intro")}>회사소개</p>
+          <p onClick={() => scrollToSection("service")}>솔루션</p>
+          <p onClick={() => scrollToSection("connect")}>연락처</p>
         </div>
         <div className="header_language">
           <select name="language" id="lang">

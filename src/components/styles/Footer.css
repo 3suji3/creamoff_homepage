@@ -27,8 +27,8 @@
   width: 73.4%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  flex: 1;
+  align-items: flex-start;
+  margin-top: 1.6vw;
 }
 
 .Footer_container .article_box1 .title_box {

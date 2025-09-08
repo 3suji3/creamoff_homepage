@@ -1,6 +1,12 @@
 import "./styles/Footer.css";
 
 const Footer = () => {
+  const scrollToSection = (id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  }
   return (
     <div className="Footer_container">
       <div className="article">
@@ -15,9 +21,9 @@ const Footer = () => {
           <div className="link_box">
             <p>바로가기</p>
             <div>
-              <p>회사소개</p>
-              <p>솔루션</p>
-              <p>연락처</p>
+              <p onClick={() => scrollToSection("intro")}>회사소개</p>
+              <p onClick={() => scrollToSection("service")}>솔루션</p>
+              <p onClick={() => scrollToSection("connect")}>연락처</p>
             </div>
           </div>
           <div className="link_box">

@@ -1,6 +1,6 @@
-import "../styles/Conect.css";
+import "../styles/Connect.css";
 
-const Conect = () => {
+const Connect = () => {
   return (
     <div className="Conect_container">
       <div className="article">
@@ -195,4 +195,4 @@ const Conect = () => {
   );
 };
 
-export default Conect;
+export default Connect;

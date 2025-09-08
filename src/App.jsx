@@ -2,7 +2,7 @@ import "./App.css";
 import Hero from "./components/hero/Hero";
 import Intro from "./components/intro/Intro";
 import Service from "./components/service/Service";
-import Conect from "./components/conect/Conect";
+import Connect from "./components/connect/Connect";
 import Footer from "./components/Footer";
 import Partner from "./components/partner/Partner";
 import Header from "./components/Header";
@@ -12,10 +12,16 @@ function App() {
     <div>
       <Header />
       <Hero />
-      <Intro />
-      <Service />
+      <div id="intro">
+        <Intro />
+      </div>
+      <div id="service">
+        <Service />
+      </div>
       <Partner />
-      <Conect />
+      <div id="connect">
+        <Connect />
+      </div>
       <Footer />
     </div>
   );
