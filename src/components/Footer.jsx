@@ -1,16 +1,18 @@
+import "./styles/Footer.css";
+
 const Footer = () => {
   return (
     <div className="Footer_container">
       <div className="article">
         <div className="article_box1">
-          <div>
+          <div className="title_box">
             <p>Talktail</p>
             <p>
               AI와 웨어러블 기술로 반려동물 건강을 지키는 헬스케어 솔루션을
               제공합니다.
             </p>
           </div>
-          <div>
+          <div className="link_box">
             <p>바로가기</p>
             <div>
               <p>회사소개</p>
@@ -18,7 +20,7 @@ const Footer = () => {
               <p>연락처</p>
             </div>
           </div>
-          <div>
+          <div className="link_box">
             <p>법적 정보</p>
             <div>
               <p>이용약관</p>
@@ -28,7 +30,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div></div>
         <div className="article_box2">
           <div>
             <p>© 2024 주식회사 크림오프. All rights reserved.</p>

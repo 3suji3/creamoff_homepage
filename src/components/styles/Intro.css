@@ -93,7 +93,7 @@
 }
 
 .Intro_container .bg_box2 > p:nth-child(2) {
-  font-size: 0.83vw;
+  font-size: 0.84vw;
   margin-top: 0;
 }
 
@@ -105,7 +105,8 @@
 }
 
 .Intro_container .bg_text {
-  font-size: 0.63vw;
+  height: 50%;
+  font-size: 0.72vw;
   display: flex;
   flex-direction: column;
 }
@@ -130,7 +131,7 @@
 
 .Intro_container .article_box3 > p {
   text-align: center;
-  font-size: 1.25vw;
+  font-size: 1.24vw;
   font-weight: 600;
 }
 
@@ -144,19 +145,19 @@
 }
 
 .Intro_container .bg_box3 div {
-  width: 26.09%;
   height: 100%;
   background-color: #f0f8fb;
   border-radius: 8px;
+  padding: 0.8vw 1.04vw;
 }
 
 .Intro_container .bg_box3 p {
-  font-size: 0.83vw;
+  font-size: 0.84vw;
 }
 
 .Intro_container .bg_box3 p:nth-child(3) {
   margin-top: 0;
-  font-size: 0.63vw;
+  font-size: 0.72vw;
 }
 
 img,

@@ -30,8 +30,8 @@ const Intro = () => {
                 <img src="/img/Intro_2.png" alt="설립연도" />
               </div>
               <div className="bg_text">
-                <span>설립연도</span>
-                <p>2021년</p>
+                <span>설립일</span>
+                <p>2021. 05. 04</p>
               </div>
             </div>
             <div className="bg_box">
@@ -48,8 +48,8 @@ const Intro = () => {
                 <img src="/img/Intro_4.png" alt="인증현황" />
               </div>
               <div className="bg_text">
-                <span>인증현황</span>
-                <p>text</p>
+                <span>사업분야</span>
+                <p>제조업, SW개발 공급업</p>
               </div>
             </div>
           </div>
@@ -71,21 +71,18 @@ const Intro = () => {
               <div>
                 <img src="/img/Intro_5.png" alt="고객 중심" />
               </div>
-              <p>고객 중심</p>
               <p>사용자 중심의 간결한 경험을 설계합니다. </p>
             </div>
             <div className="bg_box3">
               <div>
                 <img src="/img/Intro_6.png" alt="솔루션" />
               </div>
-              <p>혁신적 솔루션</p>
               <p>기술과 디자인의 균형으로 새로운 기준을 만듭니다. </p>
             </div>
             <div className="bg_box3">
               <div>
                 <img src="/img/Intro_8.png" alt="전문성" />
               </div>
-              <p>지속 성장</p>
               <p>복잡함을 덜고, 효율을 높이는 솔루션을 제공합니다.</p>
             </div>
           </div>

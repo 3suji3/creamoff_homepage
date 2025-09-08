@@ -18,14 +18,14 @@ const Service = () => {
           <div className="main_box">
             <div className="content_box">
               <div className="img_box">
-                <img src="" alt="웨어러블 디바이스" />
+                <img src="/img/Service_10.png" alt="웨어러블 디바이스" />
                 <div>
                   <p>반려동물 웨어러블 디바이스</p>
                 </div>
               </div>
               <div className="content_box2">
                 <div className="title_box">
-                  <img src="" alt="TalkTail" />
+                  <img src="/img/Service_1.png" alt="TalkTail" />
                   <span>Tailing</span>
                 </div>
                 <p>
@@ -37,40 +37,39 @@ const Service = () => {
                 <div className="icon_container">
                   <div className="icon_content">
                     <div className="icon_box">
-                      <img src="" alt="심박수" />
+                      <img src="/img/Service_3.png" alt="심박수" />
                       <span>
                         이상 징후 감지 및 알림 (체온, 심박수, 산소포화도 등
                         실시간 모니터링)
                       </span>
                     </div>
                     <div className="icon_box">
-                      <img src="" alt="알림" />
+                      <img src="/img/Service_4.svg" alt="알림" />
                       <span>
                         병원 전용 대시보드 연동 (진료 자동화 및 맞춤 알림 제공)
                       </span>
                     </div>
                     <div className="icon_box">
-                      <img src="" alt="연동" />
+                      <img src="/img/Service_5.svg" alt="연동" />
                       <span>보호자용 앱 연동(예정)</span>
                     </div>
                   </div>
-                  </div>
-                  <div className="more_button">
-                    <p>자세히보기 →</p>
-                  </div>
-                
+                </div>
+                <div className="more_button">
+                  <p>자세히보기 →</p>
+                </div>
               </div>
             </div>
             <div className="content_box">
               <div className="img_box">
-                <img src="" alt="AI 진단 서비스" />
+                <img src="/img/Service_9.png" alt="AI 진단 서비스" />
                 <div>
                   <p>반려동물 피부 질환 AI 진단</p>
                 </div>
               </div>
               <div className="content_box2">
                 <div className="title_box">
-                  <img src="" alt="Talktail Skincare AI" />
+                  <img src="/img/Service_2.png" alt="Talktail Skincare AI" />
                   <span>Talktail Skincare AI</span>
                 </div>
                 <p>
@@ -81,18 +80,18 @@ const Service = () => {
                 <div className="icon_container">
                   <div className="icon_content">
                     <div className="icon_box">
-                      <img src="" alt="분석" />
+                      <img src="/img/Service_6.svg" alt="분석" />
                       <span>
                         이미지 기반 피부 분석(딥러닝 학습을 통한 질환 분류 및
                         예측)
                       </span>
                     </div>
                     <div className="icon_box">
-                      <img src="" alt="업로드" />
+                      <img src="/img/Service_7.svg" alt="업로드" />
                       <span>간편한 이미지 업로드(앱/웹을 통한 진단 요청)</span>
                     </div>
                     <div className="icon_box">
-                      <img src="" alt="연결" />
+                      <img src="/img/Service_8.svg" alt="병원" />
                       <span>
                         병원 연계 시스템(가장 적합한 병원으로 바로 연결)
                       </span>

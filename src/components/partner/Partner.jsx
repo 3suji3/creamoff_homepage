@@ -9,27 +9,42 @@ const Partner = () => {
             <p>파트너 & 협력사</p>
           </div>
           <div className="logo_container">
-            <div>
-              <img src="" alt="파트너사 로고" />
+            <div className="logo_box">
+              <img src="/img/Partner_1.png" alt="24시센트럴동물메디컬센터" />
             </div>
-            <div>
-              <img src="" alt="파트너사 로고" />
+            <div className="logo_box">
+              <img src="/img/Partner_2.jpg" alt="군산24시 제일동물병원" />
             </div>
-            <div>
-              <img src="" alt="파트너사 로고" />
+            <div className="logo_box">
+              <img
+                src="/img/Partner_3.jpg"
+                alt="그린벨 동물의료센터(동물병원)"
+              />
             </div>
-            <div>
-              <img src="" alt="파트너사 로고" />
+            <div className="logo_box">
+              <img src="/img/Partner_4.jpg" alt="닥터장 동물의료센터" />
             </div>
-            <div>
-              <img src="" alt="파트너사 로고" />
+            <div className="logo_box">
+              <img src="/img/Partner_5.png" alt="대구24시바른동물의료센터" />
             </div>
-          </div>
-          <div className="text_container">
-            <p>
-              국내외 유수의 기관들과 협력하여 반려동물 헬스케어 기술의 안정성과
-              효과를 지속적으로 검증하고 발전시켜 나가고 있습니다.
-            </p>
+            <div className="logo_box">
+              <img src="/img/Partner_6.png" alt="도그원동물의료센터" />
+            </div>
+            <div className="logo_box">
+              <img src="/img/Partner_7.jpeg" alt="본바른동물의료센터" />
+            </div>
+            <div className="logo_box">
+              <img src="/img/Partner_8.jpg" alt="오션동물메디컬센터" />
+            </div>
+            <div className="logo_box">
+              <img src="/img/Partner_9.png" alt="조이동물의료센터" />
+            </div>
+            <div className="logo_box">
+              <img src="/img/Partner_10.png" alt="조이동물의료센터" />
+            </div>
+            <div className="logo_box">
+              <img src="/img/Partner_11.jpg" alt="지안동물의료센터" />
+            </div>
           </div>
         </div>
       </div>

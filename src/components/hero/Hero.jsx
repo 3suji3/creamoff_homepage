@@ -5,20 +5,16 @@ const Hero = () => {
     <div className="Hero_container">
       <div className="article">
         <div className="article_box1">
-          <p>
-            복잡함을 지우고, 본질만 남기다.
-            <br />
-            Simplify the Complex.
-          </p>
+          <p>반려동물 케어, 더 똑똑하게</p>
           <p className="article_box1_p1">
             AI와 웨어러블로 <br />
             <span>반려동물 건강</span>을<br />
             지켜보세요
           </p>
           <p className="article_box1_p2">
-            크림오프와 함께 웨어러블 디바이스와
-            <br />
-            AI 기술로 더 나은 반려동물 케어를 경험하세요.
+            Cream-Off는 반려동물 헬스케어 플랫폼 ‘Talktail’을 중심으로, 웨어러블
+            디바이스 ‘Tailing’과 AI 피부 진단 솔루션을 통해, 건강 케어의 새로운
+            기준을 만듭니다.
           </p>
           <div className="button_container">
             <div className="button_box">
@@ -28,11 +24,11 @@ const Hero = () => {
             </div>
             <div className="button_box">
               <div className="box2">
-                <img src="/img/Hero_1.png" alt="GooglePlay" />
+                <img src="/img/Hero_1.svg" alt="GooglePlay" />
                 <span>Google Play</span>
               </div>
               <div className="box2">
-                <img src="" alt="AppStore" />
+                <img src="/img/Hero_3.svg" alt="AppStore" />
                 <span>App Store</span>
               </div>
             </div>
