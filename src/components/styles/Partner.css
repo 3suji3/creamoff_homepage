@@ -65,8 +65,8 @@
 
 .Partner_container .logo_box {
   flex: 0 0 auto;
-  width: 8vw;
-  height: 6vw;
+  width: 10vw;
+  height: 8vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,7 +83,6 @@
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(50%);
+    transform: translateX(-50%);
   }
 }
-
