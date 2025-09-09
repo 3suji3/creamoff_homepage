@@ -1,0 +1,173 @@
+{
+  "header": {
+    "about": "회사소개",
+    "solution": "솔루션",
+    "contact": "연락처",
+    "language_change": "언어 변경",
+    "ko": "한국어",
+    "en": "영어"
+  },
+  "hero": {
+    "title1": "반려동물 케어, 더 똑똑하게",
+    "title2": "AI와 웨어러블로",
+    "title3": "반려동물 건강",
+    "title4": "을 지켜보세요",
+    "description": "Cream-Off는 반려동물 헬스케어 플랫폼 ‘Talktail’을 중심으로, 웨어러블 디바이스 ‘Tailing’과 AI 피부 진단 솔루션을 통해, 건강 케어의 새로운 기준을 만듭니다.",
+    "button": "제품 알아보기 →"
+  },
+  "intro": {
+    "title": "회사 소개",
+    "intro_title": "Cream-Off는 반려동물 헬스케어 브랜드 ‘Talktail’을 통해 웨어러블 디바이스 ‘Tailing’과 AI 기반 피부 진단 솔루션을 제공하며, 일상 속 복잡함을 덜고 본질만을 남기는 기술을 만듭니다.",
+    "company_name": {
+      "value1": "회사명",
+      "value2": "크림오프"
+    },
+    "establishment_date": "설립일",
+    "headquarters": {
+      "value1": "본사 위치",
+      "value2": "경상북도 경산"
+    },
+    "business_area": {
+      "value1": "사업분야",
+      "value2": "제조업, SW개발 공급업"
+    },
+    "vision": {
+      "value1": "비전",
+      "value2": "Cream-Off는 디지털 세상의 불필요함을 덜어내고, 본질적인 가치만을 남기는 기술 기업입니다."
+    },
+    "core_values": {
+      "value1": "핵심 가치",
+      "value2": "사용자 중심의 간결한 경험을 설계합니다.",
+      "value3": "기술과 디자인의 균형으로 새로운 기준을 만듭니다.",
+      "value4": "복잡함을 덜고, 효율을 높이는 솔루션을 제공합니다."
+    }
+  },
+  "service": {
+    "title": "솔루션",
+    "description": "Cream-Off는 반려동물 헬스케어 플랫폼 ‘Talktail’을 중심으로, 웨어러블 디바이스 ‘Tailing’과 AI 피부 진단 솔루션을 통해, 건강 케어의 새로운 기준을 만듭니다.",
+    "more": "자세히보기 →",
+
+    "wearable": {
+      "title": "반려동물 웨어러블 디바이스",
+      "name": "Tailing",
+      "description": "Tailing은 반려동물의 생체 데이터를 실시간으로 측정하는 Talktail 전용 웨어러블 디바이스입니다. 동물병원을 위한 B2B 중심 공급 구조로, 진단의 정확도와 보호자의 신뢰를 모두 높이는 의료 보조 기기입니다.",
+      "icons": {
+        "heart_rate": {
+          "alt": "심박수",
+          "text": "이상 징후 감지 및 알림 (체온, 심박수, 산소포화도 등 실시간 모니터링)"
+        },
+        "notification": {
+          "alt": "알림",
+          "text": "병원 전용 대시보드 연동 (진료 자동화 및 맞춤 알림 제공)"
+        },
+        "app_connection": {
+          "alt": "앱 연동",
+          "text": "보호자용 앱 연동(예정)"
+        }
+      }
+    },
+    "ai_diagnosis": {
+      "title": "반려동물 피부 질환 AI 진단",
+      "name": "Talktail Skincare AI",
+      "description": "Talktail Skincare AI는 반려동물의 피부를 사진 한 장으로 진단하고, AI를 통해 질환 가능성을 예측한 뒤, 병원과 연계해주는 비대면 케어 솔루션입니다.",
+      "icons": {
+        "analysis": {
+          "alt": "분석",
+          "text": "이미지 기반 피부 분석(딥러닝 학습을 통한 질환 분류 및 예측)"
+        },
+        "upload": {
+          "alt": "업로드",
+          "text": "간편한 이미지 업로드(앱/웹을 통한 진단 요청)"
+        },
+        "hospital": {
+          "alt": "병원",
+          "text": "병원 연계 시스템(가장 적합한 병원으로 바로 연결)"
+        }
+      }
+    }
+  },
+  "partner": {
+    "title": "파트너 & 협력사"
+  },
+  "connect": {
+    "title": "연락처 & SNS",
+    "description": "궁금한 점이 있으시거나 협업을 원하신다면 언제든지 연락주세요",
+    "form": {
+      "title": "문의하기",
+      "name": {
+        "label": "이름 *",
+        "placeholder": "이름을 입력해주세요"
+      },
+      "phone": {
+        "label": "전화번호 *",
+        "placeholder": "010-0000-0000"
+      },
+      "email": {
+        "label": "이메일 *",
+        "placeholder": "example@gmail.com"
+      },
+      "inquiry": {
+        "label": "문의 유형",
+        "options": {
+          "default": "문의 유형 선택",
+          "product": "제품 문의",
+          "partnership": "협업 문의",
+          "other": "기타 문의"
+        }
+      },
+      "message": {
+        "label": "메시지 *",
+        "placeholder": "문의 내용을 자세히 작성해주세요"
+      },
+      "submit": "문의하기"
+    },
+    "info": {
+      "title": "연락처 정보",
+      "phone": {
+        "title": "전화 문의",
+        "time": "평일 09:00 - 18:00"
+      },
+      "email": {
+        "title": "이메일",
+        "available": "24시간 접수 가능"
+      },
+      "address": {
+        "title": "회사 주소",
+        "location": "경상북도 경산시 삼풍로 27 경북청년창업지원센터 309호",
+        "postal": "우편 번호: 38542"
+      }
+    },
+    "sns": {
+      "description": "크림오프의 다양한 SNS에서 반려동물 정보와 제품 소식을 만나보세요."
+    },
+    "newsletter": {
+      "title": "뉴스레터 구독",
+      "description": "Talktail의 최신 소식과 반려동물 정보를 이메일로 받아보세요.",
+      "placeholder": "이메일 주소를 입력하세요",
+      "button": "구독하기"
+    }
+  },
+  "footer": {
+    "brand": {
+      "description": "AI와 웨어러블 기술로 반려동물 건강을 지키는 헬스케어 솔루션을 제공합니다."
+    },
+    "links": {
+      "quick": "바로가기",
+      "intro": "회사소개",
+      "service": "솔루션",
+      "connect": "연락처"
+    },
+    "legal": {
+      "title": "법적 정보",
+      "terms": "이용약관",
+      "privacy": "개인정보처리방침",
+      "cookies": "쿠키 정책",
+      "support": "고객지원"
+    },
+    "copyright": {
+      "text1": "© 2024 주식회사 크림오프. All rights reserved.",
+      "text2": "사업자등록번호: 123-45-67890 | 대표: 권도혁",
+      "text3": "경북 경산시 삼풍로 27 3층 309호"
+    }
+  }
+}

@@ -1,12 +1,20 @@
 import "./styles/Header.css";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const { t, i18n } = useTranslation();
+
+  const handleLanguageChange = (e) => {
+    const selectedLanguage = e.target.value;
+    i18n.changeLanguage(selectedLanguage);
+  };
+
   const scrollToSection = (id) => {
     const el = document.getElementById(id);
     if (el) {
       el.scrollIntoView({ behavior: "smooth" });
     }
-  }
+  };
   return (
     <div className="header_container">
       <div className="article">
@@ -14,17 +22,18 @@ const Header = () => {
           <img src="/LOGO(svg).svg" alt="logo" />
         </div>
         <div className="header_nav">
-          <p onClick={() => scrollToSection("intro")}>회사소개</p>
-          <p onClick={() => scrollToSection("service")}>솔루션</p>
-          <p onClick={() => scrollToSection("connect")}>연락처</p>
+          <p onClick={() => scrollToSection("intro")}>{t("header.about")}</p>
+          <p onClick={() => scrollToSection("service")}>
+            {t("header.solution")}
+          </p>
+          <p onClick={() => scrollToSection("connect")}>
+            {t("header.contact")}
+          </p>
         </div>
         <div className="header_language">
-          <select name="language" id="lang">
-            <option value="" selected>
-              언어변경
-            </option>
-            <option value="ko">한국어</option>
-            <option value="en">English</option>
+          <select name="language" id="lang" onChange={handleLanguageChange}>
+            <option value="ko">{t("header.ko")}</option>
+            <option value="en">{t("header.en")}</option>
           </select>
         </div>
       </div>

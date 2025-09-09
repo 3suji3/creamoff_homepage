@@ -1,48 +1,54 @@
+import { useTranslation } from "react-i18next";
 import "./styles/Footer.css";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   const scrollToSection = (id) => {
     const el = document.getElementById(id);
     if (el) {
       el.scrollIntoView({ behavior: "smooth" });
     }
-  }
+  };
   return (
     <div className="Footer_container">
       <div className="article">
         <div className="article_box1">
           <div className="title_box">
             <p>Talktail</p>
-            <p>
-              AI와 웨어러블 기술로 반려동물 건강을 지키는 헬스케어 솔루션을
-              제공합니다.
-            </p>
+            <p>{t("footer.brand.description")}</p>
           </div>
           <div className="link_box">
-            <p>바로가기</p>
+            <p>{t("footer.links.quick")}</p>
             <div>
-              <p onClick={() => scrollToSection("intro")}>회사소개</p>
-              <p onClick={() => scrollToSection("service")}>솔루션</p>
-              <p onClick={() => scrollToSection("connect")}>연락처</p>
+              <p onClick={() => scrollToSection("intro")}>
+                {t("footer.links.intro")}
+              </p>
+              <p onClick={() => scrollToSection("service")}>
+                {t("footer.links.service")}
+              </p>
+              <p onClick={() => scrollToSection("connect")}>
+                {t("footer.links.connect")}
+              </p>
             </div>
           </div>
           <div className="link_box">
-            <p>법적 정보</p>
+            <p>{t("footer.legal.title")}</p>
             <div>
-              <p>이용약관</p>
-              <p>개인정보처리방침</p>
-              <p>쿠키 정책</p>
-              <p>고객지원</p>
+              <p>{t("footer.legal.terms")}</p>
+              <p>{t("footer.legal.privacy")}</p>
+              <p>{t("footer.legal.cookies")}</p>
+              <p>{t("footer.legal.support")}</p>
             </div>
           </div>
         </div>
         <div className="article_box2">
           <div>
-            <p>© 2024 주식회사 크림오프. All rights reserved.</p>
-            <p>사업자등록번호: 123-45-67890 | 대표: 홍길동</p>
+            <p>{t("footer.copyright.text1")}</p>
+            <p>{t("footer.copyright.text2")}</p>
           </div>
           <div>
-            <p>경북 경산시 삼풍로 27 3층 309호</p>
+            <p>{t("footer.copyright.text3")}</p>
           </div>
         </div>
       </div>

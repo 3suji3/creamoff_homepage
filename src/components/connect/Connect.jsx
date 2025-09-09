@@ -1,91 +1,106 @@
+import { useTranslation } from "react-i18next";
 import "../styles/Connect.css";
 
 const Connect = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="Conect_container">
       <div className="article">
         <div className="article_box1">
           <div className="title">
-            <p>연락처 & SNS</p>
+            <p>{t("connect.title")}</p>
           </div>
-          <p>궁금한 점이 있으시거나 협업을 원하신다면 언제든지 연락주세요</p>
+          <p>{t("connect.description")}</p>
         </div>
         <div className="article2">
           <div className="article_box2">
-            <p>문의하기</p>
+            <p>{t("connect.form.title")}</p>
             <div className="form_box">
               <form action="submit_url" method="get">
                 <div className="form_flex">
                   <div className="form_label">
-                    <label for="name">이름 *</label>
+                    <label htmlFor="name">{t("connect.form.name.label")}</label>
                     <input
                       type="text"
                       id="name"
-                      placeholder="이름을 입력해주세요"
+                      placeholder={t("connect.form.name.placeholder")}
                       required
                     />
                   </div>
                   <div className="form_label">
-                    <label for="phone">전화번호 *</label>
+                    <label htmlFor="phone">
+                      {t("connect.form.phone.label")}
+                    </label>
                     <input
                       type="phone"
                       id="phone"
-                      placeholder="010-0000-0000"
+                      placeholder={t("connect.form.phone.placeholder")}
                       required
                     />
                   </div>
                 </div>
                 <div className="form_label">
                   <div>
-                    <label for="email">이메일 *</label>
+                    <label htmlFor="email">
+                      {t("connect.form.email.label")}
+                    </label>
                   </div>
                   <input
                     type="email"
                     id="email"
-                    placeholder="example@gmail.com"
+                    placeholder={t("connect.form.email.placeholder")}
                     required
                   />
                 </div>
                 <div className="form_label">
                   <div>
-                    <label>문의 유형</label>
+                    <label>{t("connect.form.inquiry.label")}</label>
                   </div>
                   <select name="inquiry" id="inquiry">
                     <option value="" selected>
-                      문의 유형 선택
+                      {t("connect.form.inquiry.options.default")}
                     </option>
-                    <option value="product">제품 문의</option>
-                    <option value="partnership">협업 문의</option>
-                    <option value="other">기타 문의</option>
+                    <option value="product">
+                      {t("connect.form.inquiry.options.product")}
+                    </option>
+                    <option value="partnership">
+                      {t("connect.form.inquiry.options.partnership")}
+                    </option>
+                    <option value="other">
+                      {t("connect.form.inquiry.options.other")}
+                    </option>
                   </select>
                 </div>
                 <div>
                   <div>
-                    <label for="name">메시지 *</label>
+                    <label htmlFor="name">
+                      {t("connect.form.message.label")}
+                    </label>
                   </div>
                   <textarea
                     type="text"
                     id="message"
-                    placeholder="문의 내용을 자세히 작성해주세요"
+                    placeholder={t("connect.form.message.placeholder")}
                     rows={4}
                     required
                   />
                 </div>
-                <button type="submit">문의하기</button>
+                <button type="submit">{t("connect.form.submit")}</button>
               </form>
             </div>
           </div>
           <div className="article_box2">
-            <p>연락처 정보</p>
+            <p>{t("connect.info.title")}</p>
             <div className="info_box">
               <div className="info_content">
                 <div className="info_img">
                   <img src="/img/Conect_1.svg" alt="전화" />
                 </div>
                 <div className="info_text">
-                  <p>전화 문의</p>
+                  <p>{t("connect.info.phone.title")}</p>
                   <p>070-4571-7580</p>
-                  <p>평일 09:00 - 18:00</p>
+                  <p>{t("connect.info.phone.time")}</p>
                 </div>
               </div>
               <div className="info_content">
@@ -93,9 +108,9 @@ const Connect = () => {
                   <img src="/img/Conect_2.svg" alt="이메일" />
                 </div>
                 <div className="info_text">
-                  <p>이메일</p>
+                  <p>{t("connect.info.email.title")}</p>
                   <p>creamoff2021@never.com</p>
-                  <p>24시간 접수 가능</p>
+                  <p>{t("connect.info.email.available")}</p>
                 </div>
               </div>
               <div className="info_content">
@@ -103,9 +118,9 @@ const Connect = () => {
                   <img src="/img/Conect_3.svg" alt="주소" />
                 </div>
                 <div className="info_text">
-                  <p>회사 주소</p>
-                  <p>경상북도 경산시 삼풍로 27 경북청년창업지원센터 309호</p>
-                  <p>우편 번호: 38542</p>
+                  <p>{t("connect.info.address.title")}</p>
+                  <p>{t("connect.info.address.location")}</p>
+                  <p>{t("connect.info.address.postal")}</p>
                 </div>
               </div>
             </div>
@@ -114,9 +129,7 @@ const Connect = () => {
         <div className="article_box3">
           <div className="sns_text">
             <p>SNS</p>
-            <p>
-              크림오프의 다양한 SNS에서 반려동물 정보와 제품 소식을 만나보세요.
-            </p>
+            <p>{t("connect.sns.description")}</p>
           </div>
           <div className="sns_box">
             <div className="sns_content">
@@ -182,11 +195,14 @@ const Connect = () => {
             </div>
           </div>
           <div className="newsletter_box">
-            <p>뉴스레터 구독</p>
-            <p>Talktail의 최신 소식과 반려동물 정보를 이메일로 받아보세요.</p>
+            <p>{t("connect.newsletter.title")}</p>
+            <p>{t("connect.newsletter.description")}</p>
             <div className="newsletter_form">
-              <input type="email" placeholder="이메일 주소를 입력하세요" />
-              <button type="submit">구독하기</button>
+              <input
+                type="email"
+                placeholder={t("connect.newsletter.placeholder")}
+              />
+              <button type="submit">{t("connect.newsletter.button")}</button>
             </div>
           </div>
         </div>

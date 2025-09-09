@@ -15,7 +15,7 @@
 }
 
 .Hero_container .article_box1 {
-  width: 44.49%;
+  width: 44vw;
   height: 36.8%;
   display: flex;
   flex-direction: column;
@@ -30,6 +30,7 @@
 }
 
 .Hero_container .article_box1_p1 {
+  max-width: 94%;
   font-size: 2.28vw;
   font-weight: 600;
   line-height: 2.7vw;
@@ -39,14 +40,17 @@
 
 .Hero_container .article_box1_p1 span {
   color: #3aa1cd;
+  padding: 0;
+  vertical-align: baseline;
 }
 
 .Hero_container .article_box1_p2 {
+  max-width: 94%;
   font-size: 1.16vw;
 }
 
 .Hero_container .button_container {
-  width: 100%;
+  width: 32vw;
   height: 40.07%;
   display: flex;
   flex-direction: column;
@@ -55,32 +59,39 @@
 }
 
 .Hero_container .button_box {
-  width: 100%;
-  height: 100%;
+  width: 28vw;
+  height: 4.8vw;
   display: flex;
   font-size: 1.04vw;
   text-align: center;
-  gap: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Hero_container .box1 {
-  width: 87.8%;
-  height: 100%;
+  width: 100%;
+  height: 2vw;
   color: #fff;
   background-color: #3aa1cd;
-  border-radius: 12px;
-  padding: 0.45% 1.27%;
+  border-radius: 0.63vw;
+  padding: 0.2vw 0.4vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Hero_container .box2 {
-  width: 42.22%;
-  height: 100%;
+  width: 48.22%;
+  height: 2vw;
   color: #000;
   background-color: #fff;
-  border-radius: 12px;
-  padding: 0.12vw 0.24vw;
+  border-radius: 0.63vw;
   border: solid 1px #1a1a1a;
   cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }
 
 .Hero_container .button_box img {
@@ -95,8 +106,68 @@ span {
 }
 
 .Hero_container .article_box2 video {
-  width: 720px;
+  width: 50vw;
   height: 100%;
-  border-radius: 12px;
+  border-radius: 0.63vw;
   object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .Hero_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8.4vw;
+  }
+
+  .Hero_container .article {
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Hero_container .article_box1 {
+    height: 40vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Hero_container .article_box1 p:first-child {
+    font-size: 1.32vw;
+  }
+
+  .Hero_container .article_box1_p1 {
+    font-size: 2.48vw;
+  }
+
+  .Hero_container .article_box1_p2 {
+    font-size: 1.44vw;
+  }
+
+  .Hero_container .button_box {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Hero_container .article_box2 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .Hero_container {
+    padding-top: 10.4vw;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .Hero_container {
+    padding-top: 13.6vw;
+  }
 }

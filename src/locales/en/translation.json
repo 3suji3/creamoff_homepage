@@ -1,0 +1,175 @@
+{
+  "header": {
+    "about": "About Us",
+    "solution": "Solutions",
+    "contact": "Contact",
+    "language_change": "Language Change",
+    "ko": "Korean",
+    "en": "English"
+  },
+  "hero": {
+    "title1": "Pet Care, Smarter",
+    "title2": "With AI and wearables",
+    "title3": "Pet Health",
+    "title4": " Keep an eye on it",
+    "description": "Cream-Off is a pet healthcare platform centered around ‘Talktail’, a wearable device ‘Tailing’, and an AI skin diagnostic solution, setting a new standard in health care.",
+    "button": "Discover the product →"
+  },
+  "intro": {
+    "title": "Intro",
+    "intro_title": "Cream-Off provides wearable devices 'Tailing' and AI-based skin diagnosis solutions through the pet healthcare brand 'Talktail', creating technology that removes complexity from everyday life and leaves only the essentials.",
+    "company_name": {
+      "value1": "Company name",
+      "value2": "Cream-Off"
+    },
+    "establishment_date": "Establishment Date",
+    "headquarters": {
+      "value1": "Headquarters location",
+      "value2": "Gyeongsan, Gyeongsangbuk-do"
+    },
+    "business_area": {
+      "value1": "Business",
+      "value2": "Manufacturing, Software Development and Supply"
+    },
+    "vision": {
+      "value1": "Vision",
+      "value2": "Cream-Off is a technology company that removes the unnecessary from the digital world, leaving only the essential value."
+    },
+    "core_values": {
+      "value1": "Core values",
+      "value2": "We design simple, user-centered experiences.",
+      "value3": "We create new standards with a balance of technology and design.",
+      "value4": "We provide solutions that reduce complexity and increase efficiency."
+    }
+  },
+  "service": {
+    "title": "Solutions",
+    "description": "Cream-Off is setting new standards in health care through the pet healthcare platform ‘Talktail’, wearable device ‘Tailing’, and AI skin diagnosis solutions.",
+    "more": "Learn more →",
+
+    "wearable": {
+      "title": "Pet Wearable Device",
+      "name": "Tailing",
+      "description": "Tailing is a Talktail exclusive wearable device that measures pet vital data in real-time. It is a B2B-focused medical assistant device that increases both diagnostic accuracy and owner trust.",
+      "icons": {
+        "heart_rate": {
+          "alt": "Heart Rate",
+          "text": "Detects abnormal signs and alerts (real-time monitoring of temperature, heart rate, oxygen saturation, etc.)"
+        },
+        "notification": {
+          "alt": "Notification",
+          "text": "Hospital dashboard integration (automated treatment and customized notifications)"
+        },
+        "app_connection": {
+          "alt": "App Connection",
+          "text": "Owner app integration (planned)"
+        }
+      }
+    },
+    "ai_diagnosis": {
+      "title": "Pet Skin Disease AI Diagnosis",
+      "name": "Talktail Skincare AI",
+      "description": "Talktail Skincare AI diagnoses pet skin with just one photo, predicts disease possibility through AI, and links to hospitals for non-face-to-face care solutions.",
+      "icons": {
+        "analysis": {
+          "alt": "Analysis",
+          "text": "Image-based skin analysis (disease classification and prediction through deep learning)"
+        },
+        "upload": {
+          "alt": "Upload",
+          "text": "Easy image upload (diagnosis requests via app/web)"
+        },
+        "hospital": {
+          "alt": "Hospital",
+          "text": "Hospital connection system (direct connection to the most suitable hospital)"
+        }
+      }
+    }
+  },
+  "partner": {
+    "title": "Partners & Associates"
+  },
+  "connect": {
+    "title": "Contact & SNS",
+    "description": "If you have any questions or want to collaborate, feel free to reach out.",
+    "form": {
+      "title": "Get in Touch",
+      "name": {
+        "label": "Name *",
+        "placeholder": "Enter your name"
+      },
+      "phone": {
+        "label": "Phone *",
+        "placeholder": "010-0000-0000"
+      },
+      "email": {
+        "label": "Email *",
+        "placeholder": "example@gmail.com"
+      },
+      "inquiry": {
+        "label": "Inquiry Type",
+        "options": {
+          "default": "Select inquiry type",
+          "product": "Product Inquiry",
+          "partnership": "Partnership",
+          "other": "Other"
+        }
+      },
+      "message": {
+        "label": "Message *",
+        "placeholder": "Please write your inquiry in detail"
+      },
+      "submit": "Submit"
+    },
+    "info": {
+      "title": "Contact Information",
+      "phone": {
+        "title": "Phone Inquiry",
+        "time": "Weekdays 09:00 - 18:00"
+      },
+      "email": {
+        "title": "Email",
+        "address": "creamoff2021@never.com",
+        "available": "Available 24/7"
+      },
+      "address": {
+        "title": "Company Address",
+        "location": "309, Gyeongbuk Startup Center, 27 Sampung-ro, Gyeongsan-si, Gyeongbuk",
+        "postal": "Postal Code: 38542"
+      }
+    },
+    "sns": {
+      "title": "SNS",
+      "description": "Follow us on SNS for pet tips and product news."
+    },
+    "newsletter": {
+      "title": "Subscribe to Newsletter",
+      "description": "Get the latest news and pet care tips from Talktail via email.",
+      "placeholder": "Enter your email address",
+      "button": "Subscribe"
+    }
+  },
+  "footer": {
+    "brand": {
+      "description": "We provide healthcare solutions that protect pet health through AI and wearable technology."
+    },
+    "links": {
+      "quick": "Quick Links",
+      "intro": "About Us",
+      "service": "Solutions",
+      "connect": "Contact"
+    },
+    "legal": {
+      "title": "Legal",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "cookies": "Cookie Policy",
+      "support": "Customer Support"
+    },
+    "copyright": {
+      "text1": "© 2024 Cream-Off Co., Ltd. All rights reserved.",
+      "text2": "Business Registration No: 123-45-67890 | CEO: Dohyuk Kwon",
+      "text3": "309, 3rd Floor, 27 Sampung-ro, Gyeongsan-si, Gyeongbuk"
+    }
+  }
+}
