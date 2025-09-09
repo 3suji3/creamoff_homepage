@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
   position: fixed;
+  z-index: 999;
 }
 
 .header_container .article {

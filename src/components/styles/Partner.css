@@ -6,6 +6,7 @@
   align-items: center;
   background-color: #fff;
   overflow-x: hidden;
+  z-index: 1;
 }
 
 .Partner_container .article {

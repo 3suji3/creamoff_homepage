@@ -80,6 +80,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
 }
 
 .Hero_container .box2 {
@@ -92,6 +93,11 @@
   cursor: pointer;
   align-items: center;
   justify-content: center;
+  margin-right: 1vw;
+}
+
+.Hero_container .box2:last-child {
+  margin: 0;
 }
 
 .Hero_container .button_box img {
@@ -149,12 +155,14 @@ span {
   }
 
   .Hero_container .button_box {
+    display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .Hero_container .article_box2 {
     width: 100%;
+    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -171,3 +179,4 @@ span {
     padding-top: 13.6vw;
   }
 }
+
