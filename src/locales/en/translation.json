@@ -49,7 +49,7 @@
 
     "wearable": {
       "title": "Pet Wearable Device",
-      "name": "Tailing",
+      "name": "Talktail",
       "description": "Tailing is a Talktail exclusive wearable device that measures pet vital data in real-time. It is a B2B-focused medical assistant device that increases both diagnostic accuracy and owner trust.",
       "icons": {
         "heart_rate": {

@@ -1,8 +1,10 @@
 import "./styles/Header.css";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const Header = () => {
   const { t, i18n } = useTranslation();
+  const [isTop, setIsTop] = useState(true);
 
   const handleLanguageChange = (e) => {
     const selectedLanguage = e.target.value;
@@ -15,8 +17,18 @@ const Header = () => {
       el.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsTop(window.scrollY === 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className="header_container">
+    <div className={`header ${isTop ? "visible" : "hidden"}`}>
       <div className="article">
         <div className="header_logo">
           <img src="/LOGO(svg).svg" alt="logo" />

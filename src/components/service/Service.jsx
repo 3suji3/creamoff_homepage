@@ -17,7 +17,7 @@ const Service = () => {
 
         <div className="article_box2">
           <div className="main_box">
-            {/* 웨어러블 (Tailing) 섹션 */}
+            {/* 웨어러블 (Talktail) 섹션 */}
             <div className="content_box">
               <div className="img_box">
                 <img

@@ -1,6 +1,6 @@
 .Conect_container {
   width: 100%;
-  height: 78.95vw;
+  height: 79.95vw;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -141,6 +141,18 @@
   font-size: 0.84vw;
   border-radius: 0.2vw;
   padding: 0.4vw 0 0.4vw 0.4vw;
+  appearance: none;
+}
+
+.Conect_container select:focus {
+  outline: none;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.Conect_container .form_box form option {
+  width: 100%;
+  font-size: 0.84vw;
 }
 
 .Conect_container .form_box form textarea {
@@ -161,7 +173,7 @@
 
 .Conect_container .form_box button {
   width: 100%;
-  height: 10%;
+  height: 2vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -170,6 +182,7 @@
   border-radius: 0.2vw;
   border: none;
   padding: 1.04vw;
+  font-size: 1.04vw;
 }
 
 .Conect_container .info_box {
@@ -191,11 +204,15 @@
 }
 
 .Conect_container .info_img {
-  width: 20%;
+  width: 10vw;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.Conect_container .info_img img {
+  width: 3vw;
 }
 
 .Conect_container .info_text {
@@ -275,6 +292,10 @@
   color: inherit;
 }
 
+.Conect_container .sns_content img {
+  width: 2.52vw;
+}
+
 .Conect_container .sns_content_text {
   width: 100%;
   height: 50%;
@@ -299,6 +320,7 @@
 }
 
 .Conect_container .newsletter_box p {
+  font-size: 0.84vw;
   color: #fff;
 }
 
@@ -348,4 +370,122 @@
   font-size: 0.84vw;
   cursor: pointer;
   text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .Conect_container {
+    height: 164.8vw;
+  }
+  .Conect_container .article_box1 {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Conect_container .article_box1 p {
+    font-size: 1.64vw;
+  }
+  .Conect_container .title {
+    height: 3.59vw;
+  }
+  .Conect_container .article2 {
+    width: auto;
+    height: 122.44vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Conect_container .article_box2 {
+    width: 80%;
+    height: 100%;
+  }
+  .Conect_container .article_box2 > p {
+    font-size: 1.6vw;
+  }
+  .Conect_container .info_box {
+    height: 28vw;
+    margin: auto;
+  }
+  .Conect_container .info_text {
+    width: 90%;
+  }
+  .Conect_container .info_text > p {
+    font-size: 1.36vw;
+  }
+  .Conect_container .form_box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+  .Conect_container .form_box form {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Conect_container .form_box .form_flex {
+    height: auto;
+    flex-direction: column;
+  }
+  .Conect_container .form_box label {
+    font-size: 1.4vw;
+    margin: auto 0;
+    height: 100%;
+  }
+  .Conect_container .form_box .form_label > input {
+    width: auto;
+    flex: 1;
+    padding: 1.2vw 0;
+    font-size: 1.4vw;
+  }
+  .Conect_container .form_box form select {
+    width: auto;
+    height: 3.24vw;
+    font-size: 1.12vw;
+  }
+  .Conect_container .form_box form option {
+    width: 100%;
+    font-size: 1.92vw;
+  }
+  .Conect_container .form_box form input::placeholder {
+    font-size: 1.2vw;
+    margin: auto 0;
+  }
+  .Conect_container .form_box form textarea {
+    width: 64vw;
+  }
+  .Conect_container .form_box form textarea::placeholder {
+    font-size: 1.2vw;
+  }
+  .Conect_container .form_box button {
+    height: 2.6vw;
+    font-size: 1.12vw;
+  }
+  .Conect_container .sns_text p:nth-child(1) {
+    font-size: 1.6vw;
+  }
+  .Conect_container .sns_text p:nth-child(2) {
+    font-size: 1.24vw;
+    margin: 0;
+  }
+  .Conect_container .sns_box {
+    margin: 0;
+  }
+  .Conect_container .newsletter_box {
+    width: 100%;
+    height: 16vw;
+  }
+  .Conect_container .newsletter_box p:nth-child(1) {
+    font-size: 1.48vw;
+  }
+  .Conect_container .newsletter_box p {
+    font-size: 1.12vw;
+  }
+  .Conect_container .newsletter_form input {
+    height: 1.6vw;
+  }
+  .Conect_container .newsletter_form button {
+    height: 2.36vw;
+  }
 }

@@ -1,20 +1,29 @@
-.header_container {
+.header {
   width: 100%;
+  transition: all 0.3s ease;
+  position: fixed;
+  z-index: 999;
   height: 5.2%;
   background-color: #fff;
   display: flex;
-  padding: 0.4vw 0;
   align-items: center;
   justify-content: center;
-  position: fixed;
-  z-index: 999;
 }
 
-.header_container .article {
+.header.hidden {
+  display: none;
+}
+
+.header.visible {
+  display: block;
+}
+
+.header .article {
   width: 93.67%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .header_logo {
@@ -74,5 +83,15 @@
 
   .header_language select {
     font-size: 1.04vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header_language select option {
+    width: auto;
+    font-size: 2.12vw;
+  }
+  .header_nav p {
+    font-size: 1.6vw;
   }
 }

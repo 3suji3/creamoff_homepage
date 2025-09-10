@@ -82,3 +82,23 @@
   padding: 1vw;
   color: #f5f5f5;
 }
+@media screen and (max-width: 500px) {
+  .Footer_container {
+    height: auto;
+  }
+  .Footer_container .article_box1 {
+    width: 83.4%;
+  }
+  .Footer_container .article_box2 {
+    width: 83.4%;
+  }
+  .Footer_container .article_box1 .title_box p:nth-child(1) {
+    font-size: 1.36vw;
+  }
+  .Footer_container p {
+    font-size: 1.12vw;
+  }
+  .Footer_container .article_box1 .link_box > p:nth-child(1) {
+    font-size: 1.16vw;
+  }
+}

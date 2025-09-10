@@ -6,12 +6,14 @@ import Connect from "./components/connect/Connect";
 import Footer from "./components/Footer";
 import Partner from "./components/partner/Partner";
 import Header from "./components/Header";
+import SectionNavigator from "./components/SectionNavigator";
 
 function App() {
   return (
     <div>
       <Header />
       <Hero />
+      <SectionNavigator />
       <div id="intro">
         <Intro />
       </div>

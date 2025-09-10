@@ -138,6 +138,7 @@ span {
 
   .Hero_container .article_box1 {
     height: 40vw;
+    width: auto;
     justify-content: center;
     align-items: center;
   }
@@ -180,3 +181,53 @@ span {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .Hero_container {
+    height: auto;
+  }
+  .Hero_container .article_box1 > p:first-child {
+    font-size: 1.72vw;
+  }
+  .Hero_container .article_box1 {
+    height: 100%;
+    margin-bottom: 4vw;
+  }
+  .Hero_container .article_box1_p1 {
+    font-size: 3.12vw;
+    line-height: 1.1;
+  }
+  .Hero_container .article_box1_p2 {
+    font-size: 1.84vw;
+  }
+  .Hero_container .button_container {
+    height: 17.78vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Hero_container .button_box {
+    width: 100%;
+    height: 36.43%;
+    font-size: 2.17vw;
+  }
+  .Hero_container .button_box:first-child {
+    height: 4.85vw;
+    margin: 0;
+  }
+  .Hero_container .box1 {
+    height: 100%;
+  }
+  .Hero_container .button_box:nth-child(2) {
+    height: 66.43%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+  }
+  .Hero_container .button_box:nth-child(2) .box2 {
+    width: 100%;
+    height: 4.85vw;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
