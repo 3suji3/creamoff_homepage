@@ -1,9 +1,25 @@
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "../styles/Connect.css";
+// import axios from "axios";
 
 const Connect = () => {
   const { t } = useTranslation();
+  // const { email, setEmail } = useState("");
 
+  // const onChangeEmail = (e) => {
+  //   setEmail(e.target.value);
+  // };
+
+  // const onSubmit = async () => {
+  //   try {
+  //     console.log(email);
+  //     // await axios.post("http://localhost:80", { email });
+  //     // setEmail("");
+  //   } catch (e) {
+  //     console.error(e);
+  //   }
+  // };
   return (
     <div className="Conect_container">
       <div className="article">
@@ -200,7 +216,9 @@ const Connect = () => {
             <div className="newsletter_form">
               <input
                 type="email"
+                // value={email}
                 placeholder={t("connect.newsletter.placeholder")}
+                // onChange={onChangeEmail}
               />
               <button type="submit">{t("connect.newsletter.button")}</button>
             </div>

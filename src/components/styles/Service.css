@@ -95,6 +95,10 @@
   position: relative;
 }
 
+.Service_container .img_serve {
+  display: flex;
+}
+
 .Service_container .img_box img {
   width: 100%;
   height: 100%;
