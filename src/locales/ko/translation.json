@@ -25,11 +25,11 @@
     "establishment_date": "설립일",
     "headquarters": {
       "value1": "본사 위치",
-      "value2": "경상북도 경산"
+      "value2": "경북 경산시 삼풍로 27 경북테크노파크 글로벌벤처동"
     },
     "business_area": {
       "value1": "사업분야",
-      "value2": "제조업, SW개발 공급업"
+      "value2": "동물 AI 헬스케어 솔루션"
     },
     "vision": {
       "value1": "비전",
@@ -49,7 +49,6 @@
 
     "wearable": {
       "title": "반려동물 웨어러블 디바이스",
-      "name": "Talktail",
       "description": "Tailing은 반려동물의 생체 데이터를 실시간으로 측정하는 Talktail 전용 웨어러블 디바이스입니다. 동물병원을 위한 B2B 중심 공급 구조로, 진단의 정확도와 보호자의 신뢰를 모두 높이는 의료 보조 기기입니다.",
       "icons": {
         "heart_rate": {
@@ -68,7 +67,6 @@
     },
     "ai_diagnosis": {
       "title": "반려동물 피부 질환 AI 진단",
-      "name": "Talktail Skincare AI",
       "description": "Talktail Skincare AI는 반려동물의 피부를 사진 한 장으로 진단하고, AI를 통해 질환 가능성을 예측한 뒤, 병원과 연계해주는 비대면 케어 솔루션입니다.",
       "icons": {
         "analysis": {

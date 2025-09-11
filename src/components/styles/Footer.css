@@ -84,21 +84,27 @@
 }
 @media screen and (max-width: 500px) {
   .Footer_container {
-    height: auto;
+    height: 25.2vw;
+    padding-bottom: 2vw;
   }
   .Footer_container .article_box1 {
     width: 83.4%;
+    height: auto;
+  }
+  .Footer_container .title_box {
+    width: 32vw;
   }
   .Footer_container .article_box2 {
     width: 83.4%;
+    height: auto;
   }
   .Footer_container .article_box1 .title_box p:nth-child(1) {
-    font-size: 1.36vw;
+    font-size: 2.24vw;
   }
   .Footer_container p {
-    font-size: 1.12vw;
+    font-size: 1.72vw;
   }
   .Footer_container .article_box1 .link_box > p:nth-child(1) {
-    font-size: 1.16vw;
+    font-size: 1.96vw;
   }
 }

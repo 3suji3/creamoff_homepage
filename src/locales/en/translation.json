@@ -25,11 +25,11 @@
     "establishment_date": "Establishment Date",
     "headquarters": {
       "value1": "Headquarters location",
-      "value2": "Gyeongsan, Gyeongsangbuk-do"
+      "value2": "Gyeongbuk Techno Park Global Venture Building, 27 Sampoong-ro, Gyeongsan-si, Gyeongsangbuk-do"
     },
     "business_area": {
       "value1": "Business",
-      "value2": "Manufacturing, Software Development and Supply"
+      "value2": "Animal AI Healthcare Solutions"
     },
     "vision": {
       "value1": "Vision",
@@ -49,7 +49,6 @@
 
     "wearable": {
       "title": "Pet Wearable Device",
-      "name": "Talktail",
       "description": "Tailing is a Talktail exclusive wearable device that measures pet vital data in real-time. It is a B2B-focused medical assistant device that increases both diagnostic accuracy and owner trust.",
       "icons": {
         "heart_rate": {
@@ -68,7 +67,6 @@
     },
     "ai_diagnosis": {
       "title": "Pet Skin Disease AI Diagnosis",
-      "name": "Talktail Skincare AI",
       "description": "Talktail Skincare AI diagnoses pet skin with just one photo, predicts disease possibility through AI, and links to hospitals for non-face-to-face care solutions.",
       "icons": {
         "analysis": {

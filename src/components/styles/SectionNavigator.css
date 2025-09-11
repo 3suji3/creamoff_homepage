@@ -36,8 +36,8 @@
   color: #fff;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1439px) {
   .section_navigator {
-    font-size: 1.48vw;
+    display: none;
   }
 }

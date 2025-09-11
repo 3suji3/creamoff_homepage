@@ -374,7 +374,7 @@
 
 @media screen and (max-width: 500px) {
   .Conect_container {
-    height: 164.8vw;
+    height: 220.8vw;
   }
   .Conect_container .article_box1 {
     height: auto;
@@ -382,10 +382,10 @@
     justify-content: space-between;
   }
   .Conect_container .article_box1 p {
-    font-size: 1.64vw;
+    font-size: 2.04vw;
   }
   .Conect_container .title {
-    height: 3.59vw;
+    height: 4.32vw;
   }
   .Conect_container .article2 {
     width: auto;
@@ -396,21 +396,29 @@
     align-items: center;
   }
   .Conect_container .article_box2 {
-    width: 80%;
-    height: 100%;
+    width: 82.4%;
+    height: 90%;
   }
   .Conect_container .article_box2 > p {
-    font-size: 1.6vw;
+    font-size: 2.04vw;
+    margin-top: auto;
   }
   .Conect_container .info_box {
-    height: 28vw;
-    margin: auto;
+    height: 41.2vw;
+    margin-top: 0;
+    justify-content: space-around;
+  }
+  .Conect_container .info_img {
+    width: 10vw;
+  }
+  .Conect_container .info_img img {
+    width: 5vw;
   }
   .Conect_container .info_text {
     width: 90%;
   }
   .Conect_container .info_text > p {
-    font-size: 1.36vw;
+    font-size: 2vw;
   }
   .Conect_container .form_box {
     width: 100%;
@@ -419,73 +427,93 @@
     align-items: center;
   }
   .Conect_container .form_box form {
-    height: auto;
+    height: 52.4vw;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .Conect_container .form_box .form_flex {
-    height: auto;
+    height: 15vw;
     flex-direction: column;
   }
   .Conect_container .form_box label {
-    font-size: 1.4vw;
-    margin: auto 0;
-    height: 100%;
+    font-size: 1.6vw;
+    margin: 0;
+    padding: 0;
+    height: auto;
   }
   .Conect_container .form_box .form_label > input {
     width: auto;
-    flex: 1;
-    padding: 1.2vw 0;
-    font-size: 1.4vw;
+    font-size: 1.72vw;
+    height: 3vw;
+    margin: 0;
+  }
+  .Conect_container .form_flex .form_label > input {
+    height: 3vw;
   }
   .Conect_container .form_box form select {
     width: auto;
-    height: 3.24vw;
-    font-size: 1.12vw;
+    height: 3.32vw;
+    font-size: 1.48vw;
   }
   .Conect_container .form_box form option {
     width: 100%;
     font-size: 1.92vw;
   }
   .Conect_container .form_box form input::placeholder {
-    font-size: 1.2vw;
+    font-size: 1.6vw;
     margin: auto 0;
   }
   .Conect_container .form_box form textarea {
-    width: 64vw;
+    width: 65.8vw;
   }
   .Conect_container .form_box form textarea::placeholder {
-    font-size: 1.2vw;
-  }
-  .Conect_container .form_box button {
-    height: 2.6vw;
-    font-size: 1.12vw;
-  }
-  .Conect_container .sns_text p:nth-child(1) {
     font-size: 1.6vw;
   }
+  .Conect_container .form_box button {
+    height: 2.88vw;
+    font-size: 1.72vw;
+  }
+  .Conect_container .sns_text p:nth-child(1) {
+    font-size: 2.32vw;
+  }
   .Conect_container .sns_text p:nth-child(2) {
-    font-size: 1.24vw;
-    margin: 0;
+    font-size: 1.84vw;
+    margin: auto;
   }
   .Conect_container .sns_box {
-    margin: 0;
+    height: 100%;
+    margin: auto;
+  }
+  .Conect_container .sns_content {
+    width: 13.2vw;
+  }
+  .Conect_container .sns_content img {
+    width: 3.2vw;
+  }
+  .Conect_container .sns_content_text {
+    font-size: 1.6vw;
   }
   .Conect_container .newsletter_box {
     width: 100%;
-    height: 16vw;
+    height: 28vw;
   }
   .Conect_container .newsletter_box p:nth-child(1) {
-    font-size: 1.48vw;
+    font-size: 2.24vw;
   }
   .Conect_container .newsletter_box p {
-    font-size: 1.12vw;
+    font-size: 1.84vw;
+    margin: 0;
   }
   .Conect_container .newsletter_form input {
-    height: 1.6vw;
+    height: 2.8vw;
+  }
+  .Conect_container .newsletter_form input::placeholder {
+    font-size: 1.4vw;
   }
   .Conect_container .newsletter_form button {
-    height: 2.36vw;
+    width: 8vw;
+    height: 3.6vw;
+    font-size: 1.36vw;
   }
 }

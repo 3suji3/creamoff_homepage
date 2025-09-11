@@ -29,7 +29,7 @@ const Intro = () => {
               </div>
               <div className="bg_text">
                 <span>{t("intro.establishment_date")}</span>
-                <p>2021. 05. 04</p>
+                <p>2024.06.17</p>
               </div>
             </div>
             <div className="bg_box">

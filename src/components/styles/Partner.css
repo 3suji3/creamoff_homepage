@@ -91,9 +91,25 @@
 
 @media screen and (max-width: 500px) {
   .Partner_container .title {
-    font-size: 1.84vw;
+    font-size: 2.64vw;
+  }
+  .Partner_container .logo_container {
+    height: 80%;
+  }
+  .Partner_container .logo_wrapper {
+    height: 20vw;
+    display: flex;
+    align-items: center;
+  }
+  .Partner_container .logo_slider {
+    height: auto;
+  }
+  .Partner_container .logo_box {
+    width: 18.4vw;
+    height: 12vw;
   }
   .Partner_container .logo_box img {
-    width: 11.6vw;
+    width: 14.8vw;
+    height: 13.2vw;
   }
 }

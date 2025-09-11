@@ -28,6 +28,8 @@
 
 .header_logo {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header_logo img {
@@ -63,6 +65,7 @@
   padding: 0.4vw 0.2vw;
   appearance: none;
   border-radius: 0.2vw;
+  margin-bottom: 1vw;
 }
 
 .header_language select:focus {
@@ -78,20 +81,32 @@
 
 @media screen and (max-width: 768px) {
   .header_nav p {
-    font-size: 1.24vw;
+    font-size: 1.48vw;
   }
 
   .header_language select {
-    font-size: 1.04vw;
+    font-size: 1.24vw;
   }
 }
 
 @media screen and (max-width: 500px) {
+  .header_logo {
+    width: 8.4vw;
+    justify-content: start;
+  }
+  .header_logo img {
+    width: 3.84vw;
+  }
+  .header_language select {
+    width: 8.4vw;
+    height: 100%;
+    font-size: 2.4vw;
+  }
   .header_language select option {
     width: auto;
-    font-size: 2.12vw;
+    font-size: 2.72vw;
   }
   .header_nav p {
-    font-size: 1.6vw;
+    font-size: 2.74vw;
   }
 }
