@@ -252,3 +252,47 @@ span {
     height: 4.02vw;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .Service_container {
+    width: 100%;
+    height: 293.84vw;
+  }
+  .Service_container .article {
+    width: 92.3%;
+    height: 93.54%;
+    gap: 3.73vw;
+  }
+  .Service_container .article_box1 {
+    width: 100%;
+    height: 16.04%;
+  }
+  .Service_container .title {
+    width: 61.11%;
+    height: 27.9%;
+    border-radius: 10.9vw;
+  }
+  .Service_container .title p {
+    font-size: 5.13vw;
+  }
+  .Service_container .article_box1 > p {
+    font-size: 5.13vw;
+  }
+  .Service_container .article_box2 {
+    width: 86.67%;
+    height: 80.22%;
+  }
+  .Service_container .main_box {
+    height: auto;
+    gap: 2.33vw;
+  }
+  .Service_container .content_box {
+    height: 107.69vw;
+  }
+  .Service_container .main_box > div:nth-child(1) div:nth-child(1) {
+    height: 45.05vw;
+  }
+  .Service_container .img_box > div p {
+    font-size: 3.08vw;
+  }
+}

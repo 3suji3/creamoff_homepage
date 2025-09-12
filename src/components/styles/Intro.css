@@ -335,3 +335,114 @@ div {
     font-size: 1.96vw;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .Intro_container {
+    width: 100%;
+    height: 391.79vw;
+  }
+  .Intro_container .article {
+    height: 373.86vw;
+    width: 90.26%;
+    gap: 4.55vw;
+  }
+  .Intro_container .article_box1 {
+    width: 100%;
+    height: 43.18vw;
+  }
+  .Intro_container .title {
+    width: 62.5%;
+    height: 31.58vw;
+    border-radius: 6.81vw;
+  }
+  .Intro_container .title p {
+    font-size: 5.13vw;
+  }
+  .Intro_container .article_box1 p {
+    width: 100%;
+    font-size: 4.1vw;
+  }
+  .Intro_container .article_box2 {
+    width: 100%;
+    height: 150.58vw;
+    gap: 11.71vw;
+  }
+  .Intro_container .article_box2 > div:nth-child(1) {
+    height: 133.33vw;
+    width: 80.9%;
+    gap: 5.26vw;
+  }
+  .Intro_container .main_box {
+    flex-wrap: nowrap;
+  }
+  .Intro_container .bg_box {
+    width: 100%;
+    height: 26.05%;
+    border-radius: 4.21vw;
+    gap: 6.9vw;
+  }
+  .Intro_container .bg_img {
+    margin-left: 4vw;
+  }
+  .Intro_container .bg_img img {
+    width: 11.22vw;
+  }
+  .Intro_container .bg_text {
+    display: flex;
+    justify-content: center;
+    height: 45%;
+  }
+  .Intro_container .bg_text span {
+    font-size: 4.1vw;
+    font-weight: 600;
+  }
+  .Intro_container .bg_text p {
+    font-size: 3.69vw;
+  }
+  .Intro_container .bg_box2 {
+    height: 14.06%;
+    background-color: #fff;
+    text-align: center;
+  }
+  .Intro_container .article_box2 > div:nth-child(2) {
+    width: 100%;
+  }
+  .Intro_container .bg_box2 p:nth-child(1) {
+    font-size: 5.13vw;
+  }
+  .Intro_container .bg_box2 p:nth-child(2) {
+    font-size: 4.1vw;
+    width: 100%;
+  }
+  .Intro_container .article_box3 {
+    height: 40.42%;
+  }
+  .Intro_container .article_box3 > p {
+    font-size: 5.13vw;
+  }
+  .Intro_container .main_box2 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 89.47%;
+    gap: 8.4vw;
+  }
+  .Intro_container .bg_box3 {
+    width: 100%;
+    height: 27.73%;
+  }
+  .Intro_container .bg_box3 div {
+    width: 18.07%;
+    height: 39.39%;
+    border-radius: 13.3%;
+    padding: 0;
+  }
+  .Intro_container .bg_box3 div img {
+    height: 46.15%;
+    width: 40%;
+  }
+  .Intro_container .bg_box3 > p {
+    font-size: 3.38vw;
+  }
+}
