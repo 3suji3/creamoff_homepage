@@ -18,27 +18,29 @@ const Footer = () => {
             <p>Talktail</p>
             <p>{t("footer.brand.description")}</p>
           </div>
-          <div className="link_box">
-            <p>{t("footer.links.quick")}</p>
-            <div>
-              <p onClick={() => scrollToSection("intro")}>
-                {t("footer.links.intro")}
-              </p>
-              <p onClick={() => scrollToSection("service")}>
-                {t("footer.links.service")}
-              </p>
-              <p onClick={() => scrollToSection("connect")}>
-                {t("footer.links.connect")}
-              </p>
+          <div className="link_container">
+            <div className="link_box">
+              <p>{t("footer.links.quick")}</p>
+              <div>
+                <p onClick={() => scrollToSection("intro")}>
+                  {t("footer.links.intro")}
+                </p>
+                <p onClick={() => scrollToSection("service")}>
+                  {t("footer.links.service")}
+                </p>
+                <p onClick={() => scrollToSection("connect")}>
+                  {t("footer.links.connect")}
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="link_box">
-            <p>{t("footer.legal.title")}</p>
-            <div>
-              <p>{t("footer.legal.terms")}</p>
-              <p>{t("footer.legal.privacy")}</p>
-              <p>{t("footer.legal.cookies")}</p>
-              <p>{t("footer.legal.support")}</p>
+            <div className="link_box">
+              <p>{t("footer.legal.title")}</p>
+              <div>
+                <p>{t("footer.legal.terms")}</p>
+                <p>{t("footer.legal.privacy")}</p>
+                <p>{t("footer.legal.cookies")}</p>
+                <p>{t("footer.legal.support")}</p>
+              </div>
             </div>
           </div>
         </div>
