@@ -7,6 +7,18 @@ const Hero = () => {
   return (
     <div className="Hero_container">
       <div className="article">
+        <div className="first_video_box">
+          <video muted autoPlay loop>
+            <source src="/Hero.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div className="first_text_box">
+          <p className="article_box1_p1">
+            {t("hero.first.title1")} <br />
+            {t("hero.first.title2")} <span>{t("hero.first.title3")}</span>
+            {t("hero.first.title4")}
+          </p>
+        </div>
         <div className="article_box1">
           <p>{t("hero.title1")}</p>
           <p className="article_box1_p1">
