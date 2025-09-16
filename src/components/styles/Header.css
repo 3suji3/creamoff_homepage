@@ -79,6 +79,44 @@
   outline: none;
 }
 
+.menu {
+  display: none;
+  font-size: 6.15vw;
+  cursor: pointer;
+  color: #1a1a1a;
+  position: relative;
+  z-index: 1001;
+}
+
+.mobile_menu {
+  display: none;
+  position: absolute;
+  top: 5.2%;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  flex-direction: column;
+  padding: 5.13vw;
+  gap: 5.13vw;
+  text-align: left;
+}
+
+.mobile_menu p {
+  font-size: 4.1vw;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.mobile_menu.open {
+  display: flex;
+}
+
+.mobile_lang {
+  margin-top: 5.13vw;
+  font-size: 3.59vw;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
   .header_nav p {
     font-size: 1.48vw;
@@ -108,5 +146,14 @@
   }
   .header_nav p {
     font-size: 2.74vw;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 499px) {
+  .header_nav, .header_language {
+    display: none;
+  }
+  .menu {
+    display: block;
   }
 }

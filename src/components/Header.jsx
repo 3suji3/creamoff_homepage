@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 const Header = () => {
   const { t, i18n } = useTranslation();
   const [isTop, setIsTop] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const handleLanguageChange = (e) => {
     const selectedLanguage = e.target.value;
@@ -15,6 +16,7 @@ const Header = () => {
     const el = document.getElementById(id);
     if (el) {
       el.scrollIntoView({ behavior: "smooth" });
+      setMenuOpen(false);
     }
   };
 
@@ -47,6 +49,19 @@ const Header = () => {
             <option value="ko">{t("header.ko")}</option>
             <option value="en">{t("header.en")}</option>
           </select>
+        </div>
+        <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+          {menuOpen ? "✖" : "☰"}
+        </div>
+      </div>
+      {/* 모바일 */}
+      <div className={`mobile_menu ${menuOpen ? "open" : ""}`}>
+        <p onClick={() => scrollToSection("intro")}>{t("header.about")}</p>
+        <p onClick={() => scrollToSection("service")}>{t("header.solution")}</p>
+        <p onClick={() => scrollToSection("connect")}>{t("header.contact")}</p>
+        <div className="mobile_lang">
+          <span onClick={() => i18n.changeLanguage("ko")}>Kor</span> |{" "}
+          <span onClick={() => i18n.changeLanguage("en")}>Eng</span>
         </div>
       </div>
     </div>
