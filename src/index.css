@@ -8,6 +8,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
 a:hover {
   color: #3aa1cd;
 }

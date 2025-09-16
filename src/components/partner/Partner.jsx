@@ -8,7 +8,7 @@ const Partner = () => {
     "/img/Partner_1.png", // 24시센트럴동물메디컬센터
     "/img/Partner_2.jpg", // 군산24시 제일동물병원
     "/img/Partner_3.jpg", // 그린벨 동물의료센터
-    "/img/Partner_4.jpg", // 닥터장 동물의료센터
+    "/img/Partner_4.png", // 닥터장 동물의료센터
     "/img/Partner_5.png", // 대구24시바른동물의료센터
     "/img/Partner_6.png", // 도그원동물의료센터
     "/img/Partner_7.jpeg", // 본바른동물의료센터

@@ -19,14 +19,17 @@ const Service = () => {
           <div className="main_box">
             {/* 웨어러블 (Talktail) 섹션 */}
             <div className="content_box">
+              <div>
+                <p>{t("service.wearable.title")}</p>
+              </div>
               <div className="img_box">
+                <div>
+                  <p>{t("service.wearable.title")}</p>
+                </div>
                 <img
                   src="/img/Service_10.png"
                   alt={t("service.wearable.title")}
                 />
-                <div>
-                  <p>{t("service.wearable.title")}</p>
-                </div>
               </div>
 
               <div className="content_box2">
@@ -74,16 +77,19 @@ const Service = () => {
 
             {/* AI 진단 (Talktail Skincare AI) 섹션 */}
             <div className="content_box">
+              <div>
+                <p>{t("service.ai_diagnosis.title")}</p>
+              </div>
               <div className="img_box">
                 <div className="img_serve">
+                  <div>
+                    <p>{t("service.ai_diagnosis.title")}</p>
+                  </div>
                   <img
                     src="/img/Service_9.png"
                     alt={t("service.ai_diagnosis.title")}
                   />
                   <img src="/img/Service_11.png" alt="img2" />
-                </div>
-                <div>
-                  <p>{t("service.ai_diagnosis.title")}</p>
                 </div>
               </div>
 

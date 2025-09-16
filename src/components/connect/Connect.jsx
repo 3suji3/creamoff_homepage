@@ -57,6 +57,24 @@ const Connect = () => {
                   </div>
                 </div>
                 <div className="form_label">
+                  <label htmlFor="name">{t("connect.form.name.label")}</label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder={t("connect.form.name.placeholder")}
+                    required
+                  />
+                </div>
+                <div className="form_label">
+                  <label htmlFor="phone">{t("connect.form.phone.label")}</label>
+                  <input
+                    type="phone"
+                    id="phone"
+                    placeholder={t("connect.form.phone.placeholder")}
+                    required
+                  />
+                </div>
+                <div className="form_label">
                   <div>
                     <label htmlFor="email">
                       {t("connect.form.email.label")}
