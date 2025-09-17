@@ -266,21 +266,25 @@ span {
 @media screen and (min-width: 390px) and (max-width: 499px) {
   .Service_container {
     width: 100%;
-    height: 422.84vw;
+    height: 432.84vw;
     padding: auto 0;
   }
   .Service_container .article {
     width: 92.3%;
-    height: 93.54%;
-    gap: 3.73vw;
+    height: 100%;
+    padding: auto 0;
+    margin: auto 0;
   }
   .Service_container .article_box1 {
     width: 100%;
-    height: 8%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto 0 0;
   }
   .Service_container .title {
     width: 61.11%;
-    height: 27.9vw;
+    height: auto;
     border-radius: 10.9vw;
   }
   .Service_container .title p {
