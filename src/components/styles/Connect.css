@@ -77,7 +77,6 @@
   background-color: #fff;
   border-radius: 0.63vw;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 2vw;
 }
 
 .Conect_container .form_box form {
@@ -87,7 +86,6 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 1.04vw;
-  gap: 0.52vw;
 }
 
 .Conect_container .form_box label {
