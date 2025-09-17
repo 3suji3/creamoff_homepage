@@ -512,16 +512,13 @@
     font-size: 1.36vw;
   }
 }
-
-<<<<<<< HEAD
 @media screen and (min-width: 390px) and (max-width: 499px) {
   .Conect_container .form_box form > div:nth-child(2),
   .Conect_container .form_box form > div:nth-child(3) {
     display: flex;
   }
-=======
+}
 @media screen and (max-width: 499px) {
->>>>>>> a3bf78721e758b5df1b6220ff90ffe2555ee1014
   .Conect_container {
     height: 489.74vw;
     width: 100%;

@@ -12,7 +12,11 @@ const Service = () => {
           <div className="title">
             <p>{t("service.title")}</p>
           </div>
-          <p>{t("service.description")}</p>
+          {/* <p>{t("service.description")}</p> */}
+          <p className="content">
+            AI가 진단하는 건강 케어의
+            <br /> 새로운 기준을 만듭니다.
+          </p>
         </div>
 
         <div className="article_box2">

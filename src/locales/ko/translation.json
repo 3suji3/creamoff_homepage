@@ -22,7 +22,7 @@
     "button": "제품 알아보기 →"
   },
   "intro": {
-    "title": "회사 소개",
+    "title": "크림오프",
     "intro_title": "Cream-Off는 반려동물 헬스케어 브랜드 ‘Talktail’을 통해 웨어러블 디바이스 ‘Tailing’과 AI 기반 피부 진단 솔루션을 제공하며, 일상 속 복잡함을 덜고 본질만을 남기는 기술을 만듭니다.",
     "company_name": {
       "value1": "회사명",
@@ -31,7 +31,7 @@
     "establishment_date": "설립일",
     "headquarters": {
       "value1": "본사 위치",
-      "value2": "경북 경산시 삼풍로 27 경북테크노파크 글로벌벤처동"
+      "value2": "경북 경산시 삼풍로 27"
     },
     "business_area": {
       "value1": "사업분야",

@@ -10,7 +10,8 @@ const Intro = () => {
           <div className="title">
             <p>{t("intro.title")}</p>
           </div>
-          <p>{t("intro.intro_title")}</p>
+          <p className="sub_title">소개</p>
+          <p className="content">{t("intro.intro_title")}</p>
         </div>
         <div className="article_box2">
           <div className="main_box">
@@ -53,13 +54,13 @@ const Intro = () => {
           </div>
           <div className="main_box">
             <div className="bg_box2">
-              <p>{t("intro.vision.value1")}</p>
-              <p>{t("intro.vision.value2")}</p>
+              <p className="sub_title">{t("intro.vision.value1")}</p>
+              <p className="content">{t("intro.vision.value2")}</p>
             </div>
           </div>
         </div>
         <div className="article_box3">
-          <p>{t("intro.core_values.value1")}</p>
+          <p className="sub_title">{t("intro.core_values.value1")}</p>
           <div className="main_box2">
             <div className="bg_box3">
               <div>

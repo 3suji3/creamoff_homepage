@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "../styles/Hero.css";
+import "../css/mobile.css";
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -27,7 +28,7 @@ const Hero = () => {
             <span>{t("hero.title3")}</span>
             {t("hero.title4")}
           </p>
-          <p className="article_box1_p2">{t("hero.description")}</p>
+          {/* <p className="article_box1_p2">{t("hero.description")}</p> */}
           <div className="button_container">
             <div className="button_box">
               <div className="box1">
