@@ -519,7 +519,7 @@
   }
 }
 
-@media screen and (min-width: 390px) and (max-width: 499px) {
+@media screen and (max-width: 499px) {
   .Conect_container {
     height: 489.74vw;
     width: 100%;

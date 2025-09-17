@@ -114,7 +114,7 @@
   }
 }
 
-@media screen and (min-width: 390px) and (max-width: 499px) {
+@media screen and (max-width: 499px) {
   .Partner_container {
     height: auto;
     width: 100%;

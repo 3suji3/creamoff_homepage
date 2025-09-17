@@ -238,7 +238,7 @@ span {
   }
 }
 
-@media screen and (min-width: 390px) and (max-width: 499px) {
+@media screen and (max-width: 499px) {
   .Hero_container .article_box1 p:nth-child(1),
   .Hero_container .article_box1 p:nth-child(2) {
     display: none;
