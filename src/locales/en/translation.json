@@ -7,6 +7,11 @@
     "ko": "한국",
     "en": "English"
   },
+  "section": {
+    "intro": "Intro",
+    "service": "Solution",
+    "connect": "Connect"
+  },
   "hero": {
     "first": {
       "title1": "Pet care,",

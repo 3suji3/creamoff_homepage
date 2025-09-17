@@ -7,6 +7,11 @@
     "ko": "한국",
     "en": "English"
   },
+  "section": {
+    "intro": "소개",
+    "service": "솔루션",
+    "connect": "연락처"
+  },
   "hero": {
     "first": {
       "title1": "반려동물 케어,",
