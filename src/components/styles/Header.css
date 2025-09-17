@@ -47,7 +47,6 @@
   font-size: 1.04vw;
   font-weight: 500;
   color: #1a1a1a;
-  background-color: #fff;
   text-align: center;
   cursor: pointer;
 }
@@ -70,8 +69,6 @@
 
 .header_language select:focus {
   outline: none;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
 }
 
 .header_language select option {
@@ -156,7 +153,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .header_logo {
     width: 8.4vw;
     justify-content: start;

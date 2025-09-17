@@ -124,6 +124,7 @@
 .Intro_container .bg_text p {
   margin-top: 0;
   width: 92%;
+  margin: 0;
 }
 
 .Intro_container .article_box3 {
@@ -240,7 +241,7 @@ div {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .Intro_container {
     width: 100%;
     height: 96.4vw;
@@ -411,6 +412,7 @@ div {
     width: 100%;
   }
   .Intro_container .bg_box2 p:nth-child(1) {
+    margin: 0;
     font-size: 5.13vw;
   }
   .Intro_container .bg_box2 p:nth-child(2) {

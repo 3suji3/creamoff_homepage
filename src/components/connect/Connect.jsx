@@ -92,7 +92,7 @@ const Connect = () => {
                     <label>{t("connect.form.inquiry.label")}</label>
                   </div>
                   <select name="inquiry" id="inquiry">
-                    <option value="" selected>
+                    <option hidden disabled value="" selected>
                       {t("connect.form.inquiry.options.default")}
                     </option>
                     <option value="product">

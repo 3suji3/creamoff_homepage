@@ -70,7 +70,7 @@
 
 .Conect_container .form_box {
   width: 100%;
-  height: 100vw;
+  height: 80vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -81,7 +81,7 @@
 
 .Conect_container .form_box form {
   width: 94%;
-  height: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -96,7 +96,6 @@
 
 .Conect_container .form_box label {
   font-size: 0.84vw;
-  margin-bottom: 0.26vw;
   font-weight: 600;
 }
 
@@ -243,25 +242,22 @@
 
 .Conect_container .sns_text {
   width: 100%;
-  height: 12%;
+  height: 12vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-bottom: 1vw;
 }
 
 .Conect_container .sns_text p:nth-child(1) {
   font-size: 1.44vw;
   font-weight: 600;
   margin: 0;
-  margin-top: 3vw;
 }
 
 .Conect_container .sns_text p:nth-child(2) {
   font-size: 0.84vw;
   margin: 0;
-  margin-top: 0.5vw;
 }
 .Conect_container .sns_box {
   width: 100%;
@@ -269,7 +265,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 3vw;
   text-align: center;
 }
 
@@ -283,7 +278,6 @@
   background-color: #fff;
   border-radius: 0.63vw;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 2vw;
 }
 
 .Conect_container .sns_content a:hover {
@@ -308,7 +302,6 @@
 .Conect_container .sns_content_text {
   font-weight: 600;
   font-size: 0.96vw;
-  margin-top: 0.3vw;
 }
 
 .Conect_container .newsletter_box {
@@ -332,7 +325,6 @@
   font-size: 1.04vw;
   font-weight: 600;
   margin: 0;
-  margin-top: 0.4vw;
 }
 
 .Conect_container .newsletter_form {
@@ -674,7 +666,6 @@
     height: 56.02vw;
     width: 90%;
     gap: 6.15vw;
-    margin: auto 0 auto 2vw;
     justify-content: flex-start;
   }
   .Conect_container .sns_content {
@@ -707,7 +698,6 @@
     width: 77.95vw;
     height: 27.63vw;
     gap: 3.07vw;
-    margin-top: 1.56vw;
   }
   .Conect_container .newsletter_form input {
     width: 100%;

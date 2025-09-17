@@ -185,7 +185,7 @@ span {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .Hero_container {
     width: 100%;
     height: auto;

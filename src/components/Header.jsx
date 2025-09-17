@@ -49,6 +49,9 @@ const Header = () => {
         </div>
         <div className="header_language">
           <select name="language" id="lang" onChange={handleLanguageChange}>
+            <option hidden disabled selected value="">
+              <img src="/img/Header_1.svg" alt="language"></img>
+            </option>
             <option value="ko">{t("header.ko")}</option>
             <option value="en">{t("header.en")}</option>
           </select>
