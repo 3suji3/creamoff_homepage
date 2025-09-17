@@ -12,7 +12,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-const port = process.env.PORT || 3001; // 포트 80 대신 3001 사용
+const port = process.env.PORT || 80; // 포트 80 대신 3001 사용
 
 // CORS 설정
 app.use((req, res, next) => {
