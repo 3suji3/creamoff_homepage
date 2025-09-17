@@ -377,20 +377,23 @@ div {
   }
   .Intro_container .bg_box {
     width: 100%;
-    height: 26.05%;
+    height: 26.05vw;
     border-radius: 4.21vw;
     gap: 6.9vw;
   }
   .Intro_container .bg_img {
     margin-left: 4vw;
+    height: 100%;
+    width: 11.22vw;
   }
   .Intro_container .bg_img img {
     width: 11.22vw;
   }
   .Intro_container .bg_text {
+    height: 100%;
     display: flex;
     justify-content: center;
-    height: 45%;
+    margin: auto 0;
   }
   .Intro_container .bg_text span {
     font-size: 4.1vw;
