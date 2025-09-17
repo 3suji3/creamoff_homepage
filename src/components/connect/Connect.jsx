@@ -106,7 +106,7 @@ const Connect = () => {
                     </option>
                   </select>
                 </div>
-                <div>
+                <div className="message_box">
                   <div>
                     <label htmlFor="name">
                       {t("connect.form.message.label")}
@@ -116,7 +116,7 @@ const Connect = () => {
                     type="text"
                     id="message"
                     placeholder={t("connect.form.message.placeholder")}
-                    rows={4}
+                    rows={3}
                     required
                   />
                 </div>

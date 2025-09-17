@@ -23,6 +23,7 @@ const Header = () => {
   };
 
   useEffect(() => {
+    if (window.innerWidth < 1440) return;
     const handleScroll = () => {
       setIsTop(window.scrollY === 0);
     };
