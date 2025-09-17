@@ -114,7 +114,7 @@
   }
 }
 
-@media screen and (min-width: 390px) and (max-width: 499px) {
+@media screen and (max-width: 499px) {
   .Footer_container {
     width: 100%;
     height: 127.18vw;
