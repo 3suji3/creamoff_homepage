@@ -86,6 +86,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 1.04vw;
+  gap: 0.6vw;
 }
 
 .Conect_container .form_box form > div:nth-child(2),
@@ -185,7 +186,7 @@
   border: none;
   padding: 1.04vw;
   font-size: 1.04vw;
-  margin: 0;
+  margin-top: auto;
 }
 
 .Conect_container .info_box {
