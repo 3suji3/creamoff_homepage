@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import React, { useState, useEffect } from "react";
 import "./styles/Footer.css";
 
 const Footer = () => {
@@ -10,12 +11,25 @@ const Footer = () => {
       el.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  const [width, setWidth] = useState(null);
+
+  useEffect(() => {
+    // 초기 width 설정
+    setWidth(window.innerWidth);
+
+    // resize 이벤트 핸들러
+    const handleResize = () => setWidth(window.innerWidth);
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <div className="Footer_container">
       <div className="article">
         <div className="article_box1">
           <div className="title_box">
-            <p>Talktail</p>
+            <p>Talktail {width}</p>
             <p>{t("footer.brand.description")}</p>
           </div>
           <div className="link_container">
