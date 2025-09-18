@@ -47,7 +47,7 @@ const Service = () => {
                   <div className="icon_content">
                     <div className="icon_box">
                       <img
-                        src="/img/Service_3.png"
+                        src="/img/Service_3.svg"
                         alt={t("service.wearable.icons.heart_rate.alt")}
                       />
                       <span>{t("service.wearable.icons.heart_rate.text")}</span>

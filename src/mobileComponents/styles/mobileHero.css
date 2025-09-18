@@ -1,13 +1,11 @@
 .mobile_hero_section {
   width: 100%;
   height: auto;
-  border: 1px solid red;
   margin-top: 20.51vw;
 }
 .mobile_hero_section .video_box {
   width: 100%;
   height: auto;
-  border: 1px solid red;
 }
 .mobile_hero_section .video_box video {
   width: 100%;
@@ -15,15 +13,18 @@
 }
 .mobile_hero_section > p {
   width: 100%;
-  /* font-size: ; */
+  font-size: 6.15vw;
+  font-weight: 600;
   text-align: center;
   margin-top: 14.62vw;
-  border: 1px solid red;
+}
+.mobile_hero_section > p span {
+  color: #3aa1cd;
+  vertical-align: baseline;
 }
 .mobile_hero_section .btn_box {
   width: 51.28%;
   height: 39.23vw;
-  border: 1px solid red;
   margin: 0 auto;
   margin-top: 14.62vw;
   margin-bottom: 28vw;
@@ -31,10 +32,16 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.mobile_hero_section .btn_box div:first-child {
+  background-color: #3aa1cd;
+  color: #fff;
+  border: none;
+}
 .mobile_hero_section .btn {
   width: 100%;
   height: 27.45%;
-  border: 1px solid red;
+  border: 1px solid #1a1a1a;
+  border-radius: 2.05vw;
   display: flex;
   justify-content: center;
   align-items: center;
