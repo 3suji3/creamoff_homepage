@@ -140,6 +140,7 @@
   height: 36vw;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .Intro_container .article_box3 > p {
@@ -162,8 +163,8 @@
 }
 
 .Intro_container .bg_box3 div {
-  width: 2vw;
-  height: 2vw;
+  width: 4.8vw;
+  height: 4vw;
   background-color: #f0f8fb;
   border-radius: 0.42vw;
   padding: 0.8vw 1.04vw;
@@ -173,11 +174,13 @@
 }
 
 .Intro_container .bg_box3 img {
-  width: 1.92vw;
+  width: 2.42vw;
+  height: 2.42vw;
 }
 
 .Intro_container .bg_box3 p {
   font-size: 0.84vw;
+  margin-top: 1.2vw;
 }
 
 .Intro_container .bg_box3 p:nth-child(3) {

@@ -67,7 +67,7 @@
 
 .Service_container .content_box {
   width: 90.54%;
-  height: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -193,7 +193,6 @@ span {
   align-items: center;
   cursor: pointer;
   text-align: center;
-  margin-top: 3.12vw;
   bottom: 0;
 }
 
