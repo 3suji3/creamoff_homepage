@@ -116,22 +116,22 @@
 @media screen and (max-width: 499px) {
   .Footer_container {
     width: 100%;
-    height: 127.18vw;
+    height: auto;
   }
   .Footer_container .article {
     width: 93.95vw;
-    height: 102.56vw;
-    gap: 12.3vw;
+    height: 148.71vw;
   }
   .Footer_container .article_box1 {
     width: 100%;
-    height: 64.36vw;
+    height: 76.92vw;
     flex-direction: column;
   }
-  .Footer_container .title_box {
+  .Footer_container .article_box1 .title_box {
     width: 100%;
     height: 18.97vw;
     gap: 3.07vw;
+    margin-top: 14.36vw;
   }
   .Footer_container .article_box1 .title_box p:nth-child(1) {
     font-size: 5.13vw;
@@ -141,9 +141,10 @@
   }
   .Footer_container .link_container {
     width: 89.23vw;
-    height: 23.07vw;
+    height: 34.87vw;
     display: flex;
     justify-content: start;
+    margin-top: 12.31vw;
   }
   .Footer_container .article_box1 .link_box {
     width: 50%;
@@ -160,8 +161,11 @@
   .Footer_container .mobile_text {
     width: 100%;
     display: block;
+    margin-top: 12.31vw;
+    margin-bottom: 21.03vw;
   }
   .Footer_container .mobile_text p {
     font-size: 3.6vw;
+    margin-top: 1.44vw;
   }
 }

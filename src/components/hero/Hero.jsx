@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import "../styles/Hero.css";
-import "../css/mobile.css";
 
 const Hero = () => {
   const { t } = useTranslation();
