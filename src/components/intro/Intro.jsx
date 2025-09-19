@@ -10,7 +10,6 @@ const Intro = () => {
           <div className="title">
             <p>{t("intro.title")}</p>
           </div>
-          <p className="sub_title">소개</p>
           <p className="content">{t("intro.intro_title")}</p>
         </div>
         <div className="article_box2">

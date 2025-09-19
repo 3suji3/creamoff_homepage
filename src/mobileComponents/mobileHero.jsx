@@ -16,7 +16,7 @@ const MobileHero = () => {
       <div className="btn_box">
         <div className="btn">제품 알아보기 →</div>
         <div className="btn">
-          <img src="/public/img/Hero_1.svg" alt="Google" />
+          <img src="./img/Hero_1.svg" alt="Google" />
           <p>Google Play</p>
         </div>
         <div className="btn">

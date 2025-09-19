@@ -1,11 +1,11 @@
 .Footer_container {
   width: 100%;
   height: 14.82vw;
-  background-color: #101828;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
+  background-color: #101828;
 }
 
 .Footer_container p {

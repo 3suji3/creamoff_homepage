@@ -114,7 +114,7 @@
   }
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 500px) {
   .Partner_container {
     height: auto;
     width: 100%;
@@ -124,19 +124,17 @@
   }
   .Partner_container .article_box {
     height: 75.64vw;
+    display: flex;
+    justify-content: center;
   }
   .Partner_container .title {
-    height: 6.15vw;
-    margin: auto;
-  }
-  .Partner_container .title p {
-    font-size: 5.13vw;
+    display: none;
   }
   .Partner_container .logo_container {
     width: 100%;
   }
   .Partner_container .logo_wrapper {
-    height: 62.82%;
+    height: 62.82vw;
   }
   .Partner_container .logo_slider {
     gap: 4vw;
@@ -149,8 +147,8 @@
     width: auto;
   }
   .Partner_container .logo_box img {
-    width: 51.28vw;
-    height: 51.28vw;
+    width: 40.28vw;
+    height: 40.28vw;
     object-fit: scale-down;
   }
 }
