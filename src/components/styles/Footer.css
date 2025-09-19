@@ -163,6 +163,7 @@
     display: block;
     margin-top: 12.31vw;
     margin-bottom: 21.03vw;
+    border-top: solid 1px #f5f5f5;
   }
   .Footer_container .mobile_text p {
     font-size: 3.6vw;

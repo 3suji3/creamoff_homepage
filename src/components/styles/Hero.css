@@ -23,10 +23,10 @@
 
 .Hero_container .article_box1 {
   width: 44vw;
-  height: 36.8%;
+  height: 22.8vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .Hero_container .article_box1 > p:first-child {
@@ -37,11 +37,11 @@
 }
 
 .Hero_container .article_box1_p1 {
-  max-width: 94%;
+  width: 94%;
   font-size: 2.28vw;
   font-weight: 600;
-  line-height: 2.7vw;
-  margin: 0vw;
+  line-height: 1.4;
+  margin: 0;
   align-items: center;
 }
 
@@ -52,17 +52,17 @@
 }
 
 .Hero_container .article_box1_p2 {
-  max-width: 94%;
+  width: 94%;
   font-size: 1.16vw;
 }
 
 .Hero_container .button_container {
   width: 32vw;
-  height: 40.07%;
+  height: 6.07vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 1.04vw;
+  justify-content: center;
+  margin: 0;
 }
 
 .Hero_container .button_box {

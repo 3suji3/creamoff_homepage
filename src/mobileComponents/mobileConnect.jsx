@@ -76,21 +76,51 @@ const MobileConnect = () => {
       </div>
       <p>다양한 채널을 통한 소통과 소식</p>
       <div className="sns_container">
-        <div className="sns_box">
-          <img src="./img/Conect_4.svg" alt="instagrem" />
-        </div>
-        <div className="sns_box">
-          <img src="./img/Conect_7.svg" alt="naver" />
-        </div>
-        <div className="sns_box">
-          <img src="./img/Conect_5.svg" alt="linkedin" />
-        </div>
-        <div className="sns_box">
-          <img src="./img/Conect_6.svg" alt="youtube" />
-        </div>
-        <div className="sns_box">
-          <img src="./img/Conect_8.svg" alt="kakaotalk" />
-        </div>
+        <a
+          href="https://www.instagram.com/talktail.official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="sns_box">
+            <img src="./img/Conect_4.svg" alt="instagrem" />
+          </div>
+        </a>
+        <a
+          href="https://blog.naver.com/creamoff2021"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="sns_box">
+            <img src="./img/Conect_7.svg" alt="naver" />
+          </div>
+        </a>
+        <a
+          href="https://www.linkedin.com/company/105303874/admin/dashboard/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="sns_box">
+            <img src="./img/Conect_5.svg" alt="linkedin" />
+          </div>
+        </a>
+        <a
+          href="https://youtube.com/@talktail.official?si=6VLmvA4ba12TcFn4"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="sns_box">
+            <img src="./img/Conect_6.svg" alt="youtube" />
+          </div>
+        </a>
+        <a
+          href="https://pf.kakao.com/_CSDxln"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="sns_box">
+            <img src="./img/Conect_8.svg" alt="kakaotalk" />
+          </div>
+        </a>
       </div>
       <Partner />
     </div>
