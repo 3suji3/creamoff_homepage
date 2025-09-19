@@ -12,7 +12,11 @@ const Service = () => {
           <div className="title">
             <p>{t("service.title")}</p>
           </div>
-          <p>{t("service.description")}</p>
+          {/* <p>{t("service.description")}</p> */}
+          <p className="content">
+            AI가 진단하는 건강 케어의
+            <br /> 새로운 기준을 만듭니다.
+          </p>
         </div>
 
         <div className="article_box2">
@@ -43,7 +47,7 @@ const Service = () => {
                   <div className="icon_content">
                     <div className="icon_box">
                       <img
-                        src="/img/Service_3.png"
+                        src="/img/Service_3.svg"
                         alt={t("service.wearable.icons.heart_rate.alt")}
                       />
                       <span>{t("service.wearable.icons.heart_rate.text")}</span>

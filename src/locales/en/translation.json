@@ -7,6 +7,11 @@
     "ko": "한국",
     "en": "English"
   },
+  "section": {
+    "intro": "Intro",
+    "service": "Solution",
+    "connect": "Connect"
+  },
   "hero": {
     "first": {
       "title1": "Pet care,",
@@ -22,7 +27,7 @@
     "button": "Discover the product →"
   },
   "intro": {
-    "title": "Intro",
+    "title": "Creamoff",
     "intro_title": "Cream-Off provides wearable devices 'Tailing' and AI-based skin diagnosis solutions through the pet healthcare brand 'Talktail', creating technology that removes complexity from everyday life and leaves only the essentials.",
     "company_name": {
       "value1": "Company name",
@@ -31,7 +36,7 @@
     "establishment_date": "Establishment Date",
     "headquarters": {
       "value1": "Headquarters location",
-      "value2": "Gyeongbuk Techno Park Global Venture Building, 27 Sampoong-ro, Gyeongsan-si, Gyeongsangbuk-do"
+      "value2": "27 Sampoong-ro, Gyeongsan-si, Gyeongsangbuk-do"
     },
     "business_area": {
       "value1": "Business",

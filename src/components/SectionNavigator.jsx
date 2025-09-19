@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import "./styles/SectionNavigator.css";
 
 const sections = ["intro", "service", "connect"];
 
 const SectionNavigator = () => {
+  const { t } = useTranslation();
   const [activeSection, setActiveSection] = useState(null);
   const [isScrolling, setIsScrolling] = useState(false);
 
@@ -67,7 +69,7 @@ const SectionNavigator = () => {
             className={`nav_item ${activeSection === id ? "active" : ""}`}
             onClick={() => handleClick(id)}
           >
-            {id}
+            {t(`section.${id}`)}
           </div>
         );
       })}
