@@ -48,7 +48,6 @@
 .header_nav p {
   font-size: 1.04vw;
   font-weight: 500;
-  color: #1a1a1a;
   text-align: center;
   cursor: pointer;
 }
@@ -58,7 +57,6 @@
   align-items: center;
   font-size: 0.84vw;
   text-align: center;
-  color: #1a1a1a;
   cursor: pointer;
   background-color: #3aa1cd;
   color: #fff;
@@ -82,7 +80,6 @@
   display: none;
   font-size: 6.15vw;
   cursor: pointer;
-  color: #1a1a1a;
   position: relative;
   z-index: 1001;
 }

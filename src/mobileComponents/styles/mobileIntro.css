@@ -20,7 +20,8 @@
 }
 .mobile_intro_section > p {
   width: 100%;
-  /* font-size: ; */
+  font-size: 5.13vw;
+  font-weight: 600;
   margin-top: 14vw;
   text-align: center;
 }
@@ -60,4 +61,5 @@
 }
 .mobile_intro_section .article_container .article > p {
   font-size: 3.38vw;
+  font-weight: 400;
 }

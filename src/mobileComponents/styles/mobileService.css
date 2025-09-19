@@ -3,12 +3,21 @@
   height: auto;
   background-color: #f9f9f9;
   border: 1px solid #f9f9f9;
+  padding-bottom: 11.28vw;
+}
+
+.mobile_service_section > p {
+  width: 100%;
+  font-size: 5.13vw;
+  font-weight: 600;
+  margin-top: 14vw;
+  text-align: center;
 }
 
 .mobile_service_section .content {
   height: auto;
-  width: 80%;
-  height: 86.11vw;
+  width: 86.67%;
+  height: 100vw;
   margin: 0 auto;
   margin-top: 14vw;
   display: flex;
@@ -31,7 +40,7 @@
   width: 30.77vw;
   height: 30.77vw;
   margin: 0 auto;
-  margin-top: 2.8vw;
+  margin-top: 8.2vw;
 }
 
 .mobile_service_section .content .img_box img {
@@ -45,6 +54,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  margin-top: 7.18vw;
 }
 
 .mobile_service_section .article_img {
@@ -59,10 +69,18 @@
   width: 5.13vw;
 }
 
-.article_container .content div:nth-child(4) {
-  border: 1px red solid;
+.mobile_service_section .more_button {
+  border: 1px #3aa1cd solid;
   width: 51.28vw;
-  margin-top: 0 auto;
+  height: 7.18vw;
   text-align: center;
-  background-color: aqua;
+  background-color: #3aa1cd;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 7.18vw;
+  margin-bottom: 6.15vw;
+  text-align: center;
+  border-radius: 1.02vw;
+  font-size: 3.08vw;
+  line-height: 6.16vw;
 }
