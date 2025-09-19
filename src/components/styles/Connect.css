@@ -1,6 +1,6 @@
 .Conect_container {
   width: 100%;
-  height: 90.95vw;
+  height: auto;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@
 
 .Conect_container .article_box1 {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -29,28 +29,18 @@
   text-align: center;
 }
 
-.Conect_container .title {
-  width: 29.55vw;
-  height: 38.75%;
-  background-color: #f0f8fb;
-  border-radius: 1.25vw;
-  border: solid 1px #3aa1cd;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.Conect_container .title p {
-  width: 100%;
-  color: #3aa1cd;
-  font-weight: 600;
+.Conect_container .article_box1 > p {
+  font-size: 1.04vw;
+  text-align: center;
+  margin-top: 2vw;
 }
 
 .Conect_container .article2 {
   width: 100%;
-  height: 48.11%;
+  height: 34.11vw;
   display: flex;
   justify-content: space-between;
+  margin-top: 2.4vw;
 }
 
 .Conect_container .article_box2 {
@@ -77,6 +67,7 @@
   background-color: #fff;
   border-radius: 0.63vw;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 1.84vw;
 }
 
 .Conect_container .form_box form {
@@ -159,12 +150,14 @@
 
 .Conect_container .form_box form textarea {
   width: 100%;
-  height: 100%;
+  height: 5.2vw;
   border: none;
   background-color: #f5f5f5;
   outline: none;
   border-radius: 0.2vw;
   resize: none;
+  font-size: 0.8vw;
+  padding-top: 0.1vw;
 }
 
 .Conect_container .form_box form textarea::placeholder {
@@ -185,12 +178,12 @@
   border: none;
   padding: 1.04vw;
   font-size: 1.04vw;
-  margin-top: auto;
+  margin-top: 1vw;
 }
 
 .Conect_container .info_box {
   width: 100%;
-  height: 100%;
+  height: 30vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -233,20 +226,20 @@
 
 .Conect_container .article_box3 {
   width: 100%;
-  height: 42.1vw;
+  height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background-color: #fff;
 }
 
 .Conect_container .sns_text {
   width: 100%;
-  height: 12vw;
+  height: 4vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin-top: 2.4vw;
 }
 
 .Conect_container .sns_text p:nth-child(1) {
@@ -261,11 +254,12 @@
 }
 .Conect_container .sns_box {
   width: 100%;
-  height: 85%;
+  height: 12vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  margin: 0;
 }
 
 .Conect_container .sns_content {
@@ -314,6 +308,7 @@
   justify-content: center;
   align-items: center;
   padding: 0.4vw;
+  margin-bottom: 2.4vw;
 }
 
 .Conect_container .newsletter_box p {
@@ -324,12 +319,12 @@
 .Conect_container .newsletter_box p:nth-child(1) {
   font-size: 1.04vw;
   font-weight: 600;
-  margin: 0;
+  margin-top: 1.2vw;
 }
 
 .Conect_container .newsletter_form {
   width: 36.46vw;
-  height: 80%;
+  height: 5vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -512,13 +507,13 @@
     font-size: 1.36vw;
   }
 }
-@media screen and (min-width: 390px) and (max-width: 499px) {
+@media screen and (min-width: 390px) and (max-width: 500px) {
   .Conect_container .form_box form > div:nth-child(2),
   .Conect_container .form_box form > div:nth-child(3) {
     display: flex;
   }
 }
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 500px) {
   .Conect_container {
     height: 489.74vw;
     width: 100%;

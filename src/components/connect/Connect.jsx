@@ -118,6 +118,7 @@ const Connect = () => {
                     placeholder={t("connect.form.message.placeholder")}
                     rows={3}
                     required
+                    maxLength={200}
                   />
                 </div>
                 <button type="submit">{t("connect.form.submit")}</button>
