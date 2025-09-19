@@ -192,8 +192,7 @@ const Connect = () => {
             </div>
             <div className="sns_content">
               <a
-                href="https://www.linkedin.com/company/105303874/admin/dashboard/
-"
+                href="https://www.linkedin.com/company/105303874/admin/dashboard/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

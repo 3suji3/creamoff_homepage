@@ -77,7 +77,7 @@
       }
     },
     "ai_diagnosis": {
-      "title": "반려동물 피부 질환 AI 진단",
+      "title": "반려동물 피부 질환 AI 검출",
       "description": "Talktail Skincare AI는 반려동물의 피부를 사진 한 장으로 진단하고, AI를 통해 질환 가능성을 예측한 뒤, 병원과 연계해주는 비대면 케어 솔루션입니다.",
       "icons": {
         "analysis": {

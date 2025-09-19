@@ -107,9 +107,9 @@
 
 .mobile_menu.open {
   display: flex;
-  gap: 0;
+  gap: 3vw;
   position: fixed;
-  z-index: 1001;
+  z-index: 999;
 }
 
 .mobile_lang .active.ko {
@@ -123,27 +123,15 @@
 }
 
 .bglayout {
-  position: fixed;
-  margin-top: 20.51vw;
-  top: 35.51vw;
+  position: absolute;
+  margin-top: 34.51vw;
+  top: 0;
   left: 0;
   width: 100vw;
   height: 800vw;
   background-color: rgba(0, 0, 0, 0.5);
   pointer-events: all;
   z-index: 998;
-}
-
-.mobile_lang {
-  font-size: 5.13vw;
-  cursor: pointer;
-  text-align: right;
-  padding-right: 6.13vw;
-}
-
-.mobile_lang.active {
-  font-weight: 500;
-  color: #3aa1cd;
 }
 
 @media screen and (max-width: 768px) {
