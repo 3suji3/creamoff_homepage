@@ -73,7 +73,6 @@
   border: 1px #3aa1cd solid;
   width: 51.28vw;
   height: 7.18vw;
-  text-align: center;
   background-color: #3aa1cd;
   color: #fff;
   margin: 0 auto;
@@ -82,5 +81,7 @@
   text-align: center;
   border-radius: 1.02vw;
   font-size: 3.08vw;
-  line-height: 6.16vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

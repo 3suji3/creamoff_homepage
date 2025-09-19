@@ -45,4 +45,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 5.74vw;
+  gap: 0.4vw;
+}
+
+.mobile_hero_section .btn img {
+  width: 5.74vw;
+  height: 5.74vw;
 }
