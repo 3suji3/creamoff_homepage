@@ -17,7 +17,7 @@
 
 .Service_container .article_box1 {
   width: 100%;
-  height: 17.65%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -30,21 +30,10 @@
   text-align: center;
 }
 
-.Service_container .title {
-  width: 29.55vw;
-  height: 38.75%;
-  background-color: #f0f8fb;
-  border-radius: 1.25vw;
-  border: solid 1px #3aa1cd;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.Service_container .title p {
-  width: 100%;
-  color: #3aa1cd;
-  font-weight: 600;
+.Service_container .article_box1 > p {
+  font-size: 1.04vw;
+  text-align: center;
+  margin-top: 2vw;
 }
 
 .Service_container .article_box2 {
@@ -261,7 +250,7 @@ span {
   }
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 500px) {
   .Service_container {
     width: 100%;
     height: 432.84vw;

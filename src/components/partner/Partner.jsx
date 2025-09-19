@@ -22,7 +22,7 @@ const Partner = () => {
     <div className="Partner_container">
       <div className="article">
         <div className="article_box">
-          <div className="title">
+          <div className="partner_title">
             <p>{t("partner.title")}</p>
           </div>
           <div className="logo_container">
