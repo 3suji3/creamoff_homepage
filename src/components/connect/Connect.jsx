@@ -304,7 +304,7 @@ const Connect = () => {
                 onChange={onChangeAddEmail}
               />
               <button type="submit" onClick={onAddSubmit}>
-                {t("connect.newsletter.button")}1
+                {t("connect.newsletter.button")}
               </button>
             </div>
           </div>
