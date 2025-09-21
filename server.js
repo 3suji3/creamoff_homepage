@@ -47,7 +47,7 @@ async function sendEmail(name, phone, email, inquiry, message) {
   try {
     await transporter.sendMail({
       from: "creamoff2021@naver.com",
-      to: "kms930322@naver.com",
+      to: "creamoff2021@naver.com",
       subject: "홈페이지 문의",
       text: `이름 : ${name}
 전화번호 : ${phone}
