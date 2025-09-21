@@ -1,25 +1,75 @@
-// import React, { useState } from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "../styles/Connect.css";
-// import axios from "axios";
+import axios from "axios";
 
 const Connect = () => {
   const { t } = useTranslation();
-  // const { email, setEmail } = useState("");
+  const [addEmail, setAddEmail] = useState("");
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [email, setEmail] = useState("");
+  const [inquiry, setInquiry] = useState("");
+  const [message, setMessage] = useState("");
 
-  // const onChangeEmail = (e) => {
-  //   setEmail(e.target.value);
-  // };
+  const onSubmit = async () => {
+    try {
+      const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:80";
+      const response = await axios.post(`${apiUrl}/send`, {
+        name,
+        phone,
+        email,
+        inquiry,
+        message,
+      });
+      if (response.status === 200) {
+        setName("");
+        setPhone("");
+        setEmail("");
+        setInquiry("");
+        setMessage("");
+      }
+      alert("성공적으로 문의하였습니다.");
+    } catch (e) {
+      console.error(e);
+    }
+  };
 
-  // const onSubmit = async () => {
-  //   try {
-  //     console.log(email);
-  //     // await axios.post("http://localhost:80", { email });
-  //     // setEmail("");
-  //   } catch (e) {
-  //     console.error(e);
-  //   }
-  // };
+  const onChangeAddEmail = (e) => {
+    setAddEmail(e.target.value);
+  };
+
+  const isValidEmail = (data) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(data);
+  };
+
+  const onAddSubmit = async () => {
+    // 이메일 유효성 검사
+    if (!addEmail.trim()) {
+      alert("이메일을 입력해주세요.");
+      return;
+    }
+
+    if (!isValidEmail(addEmail)) {
+      alert("올바른 이메일 형식을 입력해주세요.");
+      return;
+    }
+
+    try {
+      const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:80";
+      const response = await axios.post(`${apiUrl}/addList`, {
+        email: addEmail,
+      });
+      if (response.status === 200) {
+        setAddEmail("");
+        alert("성공적으로 구독하였습니다.");
+      }
+    } catch (e) {
+      console.error(e);
+      alert("이메일 등록 중 오류가 발생했습니다.");
+    }
+  };
   return (
     <div className="Conect_container">
       <div className="article">
@@ -38,6 +88,8 @@ const Connect = () => {
                   <div className="form_label">
                     <label htmlFor="name">{t("connect.form.name.label")}</label>
                     <input
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                       type="text"
                       id="name"
                       placeholder={t("connect.form.name.placeholder")}
@@ -49,6 +101,8 @@ const Connect = () => {
                       {t("connect.form.phone.label")}
                     </label>
                     <input
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
                       type="phone"
                       id="phone"
                       placeholder={t("connect.form.phone.placeholder")}
@@ -81,6 +135,8 @@ const Connect = () => {
                     </label>
                   </div>
                   <input
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                     type="email"
                     id="email"
                     placeholder={t("connect.form.email.placeholder")}
@@ -91,7 +147,12 @@ const Connect = () => {
                   <div>
                     <label>{t("connect.form.inquiry.label")}</label>
                   </div>
-                  <select name="inquiry" id="inquiry">
+                  <select
+                    name="inquiry"
+                    id="inquiry"
+                    value={inquiry}
+                    onChange={(e) => setInquiry(e.target.value)}
+                  >
                     <option hidden disabled value="" selected>
                       {t("connect.form.inquiry.options.default")}
                     </option>
@@ -113,6 +174,8 @@ const Connect = () => {
                     </label>
                   </div>
                   <textarea
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
                     type="text"
                     id="message"
                     placeholder={t("connect.form.message.placeholder")}
@@ -121,7 +184,9 @@ const Connect = () => {
                     maxLength={200}
                   />
                 </div>
-                <button type="submit">{t("connect.form.submit")}</button>
+                <button type="submit" onClick={onSubmit}>
+                  {t("connect.form.submit")}
+                </button>
               </form>
             </div>
           </div>
@@ -234,11 +299,13 @@ const Connect = () => {
             <div className="newsletter_form">
               <input
                 type="email"
-                // value={email}
+                value={addEmail}
                 placeholder={t("connect.newsletter.placeholder")}
-                // onChange={onChangeEmail}
+                onChange={onChangeAddEmail}
               />
-              <button type="submit">{t("connect.newsletter.button")}</button>
+              <button type="submit" onClick={onAddSubmit}>
+                {t("connect.newsletter.button")}1
+              </button>
             </div>
           </div>
         </div>

@@ -47,7 +47,7 @@ async function sendEmail(name, phone, email, inquiry, message) {
   try {
     await transporter.sendMail({
       from: "creamoff2021@naver.com",
-      to: "creamoff2021@naver.com",
+      to: "kms930322@naver.com",
       subject: "홈페이지 문의",
       text: `이름 : ${name}
 전화번호 : ${phone}
@@ -64,14 +64,12 @@ async function sendEmail(name, phone, email, inquiry, message) {
 }
 
 app.post("/send", async (req, res) => {
-  console.log(req.body);
-
   const { name, phone, email, inquiry, message } = req.body;
 
   try {
     const result = await sendEmail(name, phone, email, inquiry, message);
     console.log(result);
-    res.json({ success: true });
+    res.status(200).json({ success: true });
   } catch (error) {
     console.error(error);
     res.status(500).json({ success: false, error: error.message });
@@ -91,11 +89,13 @@ if (!fs.existsSync(dataDir)) {
 app.post("/addList", (req, res) => {
   try {
     const { email } = req.body;
-    console.log("email : ", email);
+    // console.log("email : ", email);
 
     const filePath = path.join(__dirname, "public", "data", "lists.csv");
     fs.appendFileSync(filePath, email + "\n");
-    res.json({ success: true, message: "Email added successfully" });
+    res
+      .status(200)
+      .json({ success: true, message: "Email added successfully" });
   } catch (e) {
     console.error(e);
     res.status(500).json({ success: false, error: e.message });
