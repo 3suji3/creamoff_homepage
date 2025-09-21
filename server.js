@@ -89,7 +89,7 @@ if (!fs.existsSync(dataDir)) {
 app.post("/addList", (req, res) => {
   try {
     const { email } = req.body;
-    // console.log("email : ", email);
+    console.log("email : ", email);
 
     const filePath = path.join(__dirname, "public", "data", "lists.csv");
     fs.appendFileSync(filePath, email + "\n");
