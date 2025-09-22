@@ -175,7 +175,7 @@
 }
 
 .custom_select .selected span {
-  font-size: 1.36vw;
+  font-size: 1.12vw;
   font-weight: 600;
   vertical-align: middle;
 }
@@ -210,7 +210,7 @@
 }
 
 .custom_select .option img {
-  width: 1.44vw;
+  width: 1vw;
 }
 
 .option.icon {
@@ -358,7 +358,7 @@
   }
 
   .custom_select .option img {
-    width: 3.84vw;
+    width: 2.84vw;
   }
 
   .custom_select .option span {
