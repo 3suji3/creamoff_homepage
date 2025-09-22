@@ -127,16 +127,6 @@
   z-index: 1;
 }
 
-.mobile_lang .active.ko {
-  color: #3aa1cd;
-  font-weight: 500;
-}
-
-.mobile_lang .active.en {
-  color: #3aa1cd;
-  font-weight: 500;
-}
-
 .bglayout {
   position: absolute;
   margin-top: 40.51vw;

@@ -9,9 +9,9 @@
 
 .Conect_container .article {
   width: 86.14vw;
-  height: 84.56%;
+  height: 89.56vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: column;
 }
 
