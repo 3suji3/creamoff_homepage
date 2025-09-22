@@ -116,9 +116,15 @@
 }
 
 .mobile_menu.open {
+  width: 100%;
+  height: auto;
   display: flex;
   gap: 6vw;
+  top: 0;
   position: fixed;
+  margin: 0;
+  margin-top: 18.2vw;
+  z-index: 1;
 }
 
 .mobile_lang .active.ko {
