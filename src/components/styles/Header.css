@@ -116,9 +116,15 @@
 }
 
 .mobile_menu.open {
+  width: 100%;
+  height: auto;
   display: flex;
   gap: 6vw;
+  top: 0;
   position: fixed;
+  margin: 0;
+  margin-top: 18.2vw;
+  z-index: 1;
 }
 
 .mobile_lang .active.ko {
@@ -263,6 +269,8 @@
   }
   .menu {
     display: flex;
+    width: 9.2vw;
+    font-size: 8vw;
   }
   .header {
     width: 100%;
@@ -306,7 +314,7 @@
 
   .custom_select .selected {
     width: 100%;
-    height: 6.8vw;
+    height: 6.4vw;
     display: flex;
     align-items: center;
     font-size: 3.24vw;
