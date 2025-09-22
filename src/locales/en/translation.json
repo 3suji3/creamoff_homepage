@@ -101,6 +101,7 @@
   "connect": {
     "title": "Contact & SNS",
     "description": "If you have any questions or want to collaborate, feel free to reach out.",
+    "subtitle": "Inquiries Built on Trust",
     "form": {
       "title": "Get in Touch",
       "name": {
@@ -148,8 +149,8 @@
       }
     },
     "sns": {
-      "title": "SNS",
-      "description": "Follow us on SNS for pet tips and product news."
+      "description": "Follow us on SNS for pet tips and product news.",
+      "subtitle": "Updates and communication through various channels"
     },
     "newsletter": {
       "title": "Subscribe to Newsletter",
@@ -175,10 +176,57 @@
       "cookies": "Cookie Policy",
       "support": "Customer Support"
     },
+    "contact_mobile": {
+      "text1": "© 2024 Cream-Off Co., Ltd. All rights reserved.",
+      "text2": "Business Registration No: 514-87-03021",
+      "text3": "CEO: Dohyuk Kwon",
+      "text4": "Address: 309, Gyeongbuk Startup Center, 27 Sampung-ro, Gyeongsan-si",
+      "text5": "Postal Code: 38542",
+      "text6": "Phone: 070-4571-7580",
+      "text7": "Email: creamoff2021@naver.com"
+    },
     "copyright": {
       "text1": "© 2024 Cream-Off Co., Ltd. All rights reserved.",
       "text2": "Business Registration No: 514-87-03021 | CEO: Dohyuk Kwon",
       "text3": "309, 3rd Floor, 27 Sampung-ro, Gyeongsan-si, Gyeongbuk"
+    }
+  },
+  "mobile_hero": {
+    "title1": "Pet care,",
+    "title2": "More ",
+    "title3": "smartly",
+    "title4": "",
+    "button": "Details →"
+  },
+  "mobile_intro": {
+    "subtitle": "Simplify to Clarify",
+    "articles": {
+      "text1": "We design streamlined, user-first experiences.",
+      "text2": "Balancing design and technology to set new standards.",
+      "text3": "Simplifying complexity for greater efficiency."
+    }
+  },
+  "mobile_service": {
+    "subtitle": "Simple Answers for Pet Life",
+    "wearable": {
+      "title": "Pet Wearable Device",
+      "features": {
+        "text1": "Body Temperature",
+        "text2": "Heart Rate",
+        "text3": "Oxygen Saturation",
+        "text4": "Anomaly Detection & Alerts"
+      },
+      "button": "Learn More →"
+    },
+    "ai_diagnosis": {
+      "title": "AI Skin Disease Detection",
+      "features": {
+        "text1": "Image-based Symptom Analysis",
+        "text2": "Trained on 100,000+ Images",
+        "text3": "Instant Results",
+        "text4": "Hospital Matching"
+      },
+      "button": "Learn More →"
     }
   }
 }

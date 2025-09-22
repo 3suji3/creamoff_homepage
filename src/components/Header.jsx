@@ -8,11 +8,6 @@ const Header = () => {
   const [isTop, setIsTop] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // const handleLanguageChange = (e) => {
-  //   const selectedLanguage = e.target.value;
-  //   i18n.changeLanguage(selectedLanguage);
-  // };
-
   const scrollToSection = (id) => {
     const el = document.getElementById(id);
     if (el) {
@@ -47,13 +42,6 @@ const Header = () => {
           </p>
         </div>
         <div className="header_language">
-          {/* <select name="language" id="lang" onChange={handleLanguageChange}>
-            <option hidden disabled selected value="">
-              <img src="/img/Header_1.svg" alt="language"></img>
-            </option>
-            <option value="ko">{t("header.ko")}</option>
-            <option value="en">{t("header.en")}</option>
-          </select> */}
           <CustomLanguageSelect />
         </div>
         <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>

@@ -101,6 +101,7 @@
   "connect": {
     "title": "연락처 & SNS",
     "description": "궁금한 점이 있으시거나 협업을 원하신다면 언제든지 연락주세요",
+    "subtitle": "신뢰를 바탕으로 이어지는 문의",
     "form": {
       "title": "문의하기",
       "name": {
@@ -147,7 +148,8 @@
       }
     },
     "sns": {
-      "description": "크림오프의 다양한 SNS에서 반려동물 정보와 제품 소식을 만나보세요."
+      "description": "크림오프의 다양한 SNS에서 반려동물 정보와 제품 소식을 만나보세요.",
+      "subtitle": "다양한 채널을 통한 소통과 소식"
     },
     "newsletter": {
       "title": "뉴스레터 구독",
@@ -173,10 +175,57 @@
       "cookies": "쿠키 정책",
       "support": "고객지원"
     },
+    "contact_mobile": {
+      "text1": "© 2024 Cream-Off Co., Ltd. All rights reserved.",
+      "text2": "Business Registration No: 514-87-03021",
+      "text3": "CEO: Dohyuk Kwon",
+      "text4": "Address: 309, Gyeongbuk Startup Center, 27 Sampung-ro, Gyeongsan-si",
+      "text5": "Postal Code: 38542",
+      "text6": "Phone: 070-4571-7580",
+      "text7": "Email: creamoff2021@naver.com"
+    },
     "copyright": {
       "text1": "© 2024 주식회사 크림오프. All rights reserved.",
       "text2": "사업자등록번호: 514-87-03021 | 대표: 권도혁",
       "text3": "경북 경산시 삼풍로 27 3층 309호"
+    }
+  },
+  "mobile_hero": {
+    "title1": "반려동물 케어,",
+    "title2": "더 ",
+    "title3": "똑똑",
+    "title4": "하게",
+    "button": "제품 알아보기 →"
+  },
+  "mobile_intro": {
+    "subtitle": "덜어낼수록 선명해지는 본질",
+    "articles": {
+      "text1": "사용자 중심의 간결한 경험을 설계합니다.",
+      "text2": "기술과 디자인의 균형으로 새로운 기준을 만듭니다.",
+      "text3": "복잡함을 덜고, 효율을 높이는 솔루션을 제공합니다."
+    }
+  },
+  "mobile_service": {
+    "subtitle": "복잡함을 덜어낸 반려의 해답",
+    "wearable": {
+      "title": "반려동물 웨어러블 디바이스",
+      "features": {
+        "text1": "체온",
+        "text2": "심박수",
+        "text3": "산소포화도",
+        "text4": "이상 징후 감지 및 알림"
+      },
+      "button": "자세히 보기 →"
+    },
+    "ai_diagnosis": {
+      "title": "반려동물 피부 질환 AI 검출",
+      "features": {
+        "text1": "문진 이미지 기반 분석",
+        "text2": "10만장 이미지 학습",
+        "text3": "즉시 결과 전송",
+        "text4": "맞춤 병원 연계"
+      },
+      "button": "자세히 보기 →"
     }
   }
 }

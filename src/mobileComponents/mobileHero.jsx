@@ -1,7 +1,9 @@
 import React from "react";
 import "./styles/mobileHero.css";
+import { useTranslation } from "react-i18next";
 
 const MobileHero = () => {
+  const { t } = useTranslation();
   return (
     <div className="mobile_hero_section">
       <div className="video_box">
@@ -10,11 +12,14 @@ const MobileHero = () => {
         </video>
       </div>
       <p>
-        반려동물 케어,
-        <br />더 <span>똑똑</span>하게
+        {t("mobile_hero.title1")}
+        <br />
+        {t("mobile_hero.title2")}
+        <span>{t("mobile_hero.title3")}</span>
+        {t("mobile_hero.title4")}
       </p>
       <div className="btn_box">
-        <div className="btn">제품 알아보기 →</div>
+        <div className="btn">{t("mobile_hero.button")}</div>
         <div className="btn">
           <img src="./img/Hero_1.svg" alt="Google" />
           <p>Google Play</p>
