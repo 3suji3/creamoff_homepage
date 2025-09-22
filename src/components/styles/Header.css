@@ -175,7 +175,7 @@
 }
 
 .custom_select .selected span {
-  font-size: 1.12vw;
+  font-size: 1vw;
   font-weight: 600;
   vertical-align: middle;
 }
@@ -255,12 +255,16 @@
   }
   .header_language {
     width: 22vw;
-    height: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
   }
   .menu {
-    display: flex;
+    height: 100%;
     width: 9.2vw;
-    font-size: 8vw;
+    display: flex;
+    align-items: center;
+    font-size: 8.8vw;
   }
   .header {
     width: 100%;
@@ -291,7 +295,7 @@
   /* language option */
   .custom_select {
     width: 19.2vw;
-    height: auto;
+    height: 8vw;
     position: relative;
     cursor: pointer;
     user-select: none;
@@ -299,6 +303,7 @@
     border: 1px solid #000;
     border-radius: 0.4vw;
     display: flex;
+    align-items: center;
     margin-right: 2vw;
   }
 
