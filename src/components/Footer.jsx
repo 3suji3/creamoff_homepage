@@ -12,18 +12,6 @@ const Footer = () => {
     }
   };
 
-  // const [width, setWidth] = useState(null);
-
-  // useEffect(() => {
-  //   // 초기 width 설정
-  //   setWidth(window.innerWidth);
-
-  //   // resize 이벤트 핸들러
-  //   const handleResize = () => setWidth(window.innerWidth);
-
-  //   window.addEventListener("resize", handleResize);
-  //   return () => window.removeEventListener("resize", handleResize);
-  // }, []);
   return (
     <div className="Footer_container">
       <div className="article">
@@ -68,13 +56,13 @@ const Footer = () => {
           </div>
         </div>
         <div className="mobile_text">
-          <p>© 2024 주식회사 크림오프. All rights reserved.</p>
-          <p>사업자등록번호: 514-87-03021</p>
-          <p>대표: 권도혁</p>
-          <p>주소: 경산시 삼풍로 27 경북청년창업지원센터 309호</p>
-          <p>우편 번호: 38542</p>
-          <p>전화: 070-4571-7580</p>
-          <p>이메일: creamoff2021@naver.com</p>
+          <p>{t("footer.contact_mobile.text1")}</p>
+          <p>{t("footer.contact_mobile.text2")}</p>
+          <p>{t("footer.contact_mobile.text3")}</p>
+          <p>{t("footer.contact_mobile.text4")}</p>
+          <p>{t("footer.contact_mobile.text5")}</p>
+          <p>{t("footer.contact_mobile.text6")}</p>
+          <p>{t("footer.contact_mobile.text7")}</p>
         </div>
       </div>
     </div>

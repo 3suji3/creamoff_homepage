@@ -3,9 +3,9 @@ import { useTranslation } from "react-i18next";
 import "./styles/Header.css";
 
 const languages = [
-  { code: "", value: "", label: "", icon: "/img/Header_1.svg" },
-  { code: "kr", value: "KR", label: "한국어", icon: "/img/ko.svg" },
-  { code: "en", value: "ER", label: "English", icon: "/img/language_us.svg" },
+  { code: "", value: "", label: "", icon: "/img/Header_2.svg" },
+  { code: "kr", value: "KR", label: "한국어", icon: "/img/KR.png" },
+  { code: "en", value: "US", label: "English", icon: "/img/US.png" },
 ];
 
 const CustomLanguageSelect = () => {
@@ -35,7 +35,11 @@ const CustomLanguageSelect = () => {
   return (
     <div className="custom_select" ref={dropdownRef}>
       <div className="selected" onClick={toggleOpen}>
-        <img src={selected.icon} alt={selected.label} width={20} />
+        <img
+          src="/img/Header_2.svg"
+          alt={selected.label}
+          className={`select ${selected.label === "" ? "no" : ""}`}
+        />
         <span>{selected.value}</span>
       </div>
 
@@ -47,7 +51,7 @@ const CustomLanguageSelect = () => {
               className={`option ${lang.label === "" ? "icon" : ""}`}
               onClick={() => handleSelect(lang)}
             >
-              <img src={lang.icon} alt={lang.label} width={20} />
+              <img src={lang.icon} alt={lang.label} />
               <span>{lang.label}</span>
             </div>
           ))}

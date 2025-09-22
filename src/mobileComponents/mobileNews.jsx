@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { useTranslation } from "react-i18next";
 import "./styles/mobileNews.css";
 
 const MobileNews = () => {
+  const { t } = useTranslation();
   const [addEmail, setAddEmail] = useState("");
 
   const onChangeAddEmail = (e) => {
@@ -43,16 +45,16 @@ const MobileNews = () => {
   return (
     <div className="mobile_news_section">
       <div className="news_content">
-        <p>뉴스레터 구독</p>
-        <p>Talktail의 최신 소식과 반려동물 정보를 이메일로 받아보세요.</p>
+        <p>{t("connect.newsletter.title")}</p>
+        <p>{t("connect.newsletter.description")}</p>
         <input
           value={addEmail}
           onChange={onChangeAddEmail}
           type="email"
-          placeholder="이메일 주소를 입력하세요"
+          placeholder={t("connect.newsletter.placeholder")}
         />
         <button type="submit" onClick={onAddSubmit}>
-          구독하기
+          {t("connect.newsletter.button")}
         </button>
       </div>
     </div>

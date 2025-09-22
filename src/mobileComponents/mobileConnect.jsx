@@ -37,7 +37,7 @@ const MobileConnect = () => {
   return (
     <div className="mobile_connect_section">
       <div className="mobile_title">Connect</div>
-      <p>신뢰를 바탕으로 이어지는 문의</p>
+      <p>{t("connect.subtitle")}</p>
       <div className="form_container">
         <form action="submit_url" method="get">
           <div className="form_label">
@@ -118,7 +118,7 @@ const MobileConnect = () => {
           </button>
         </form>
       </div>
-      <p>다양한 채널을 통한 소통과 소식</p>
+      <p>{t("connect.sns.subtitle")}</p>
       <div className="sns_container">
         <a
           href="https://www.instagram.com/talktail.official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
