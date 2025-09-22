@@ -43,7 +43,6 @@ const transporter = nodemailer.createTransport({
 
 // 이메일 발송 함수
 async function sendEmail(name, phone, email, inquiry, message) {
-  console.log(name, phone, email, inquiry, message);
   try {
     await transporter.sendMail({
       from: "creamoff2021@naver.com",
@@ -68,7 +67,6 @@ app.post("/send", async (req, res) => {
 
   try {
     const result = await sendEmail(name, phone, email, inquiry, message);
-    console.log(result);
     res.status(200).json({ success: true });
   } catch (error) {
     console.error(error);
@@ -89,7 +87,6 @@ if (!fs.existsSync(dataDir)) {
 app.post("/addList", (req, res) => {
   try {
     const { email } = req.body;
-    console.log("email : ", email);
 
     const filePath = path.join(__dirname, "public", "data", "lists.csv");
     fs.appendFileSync(filePath, email + "\n");

@@ -35,7 +35,6 @@ const SectionNavigator = () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting && entry.target?.id) {
           const id = entry.target.id.trim();
-          console.log("In view:", id);
           setActiveSection(id);
         }
       });

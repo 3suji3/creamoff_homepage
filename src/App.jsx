@@ -27,13 +27,6 @@ function App() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-  console.log("width : ", width);
-  console.log("width : ", typeof width);
-  if (width <= 500) {
-    console.log("AA");
-  } else {
-    console.log("BB");
-  }
 
   return (
     <div>
