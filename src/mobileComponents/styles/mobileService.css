@@ -8,7 +8,8 @@
 
 .mobile_service_section > p {
   width: 100%;
-  font-size: 5.13vw;
+  /* font-size: 5.13vw; */
+  font-size: 4.1vw;
   font-weight: 600;
   margin-top: 14vw;
   text-align: center;
@@ -59,10 +60,14 @@
 
 .mobile_service_section .article_img {
   margin-top: 2vw;
-  width: 46.15%;
+  width: 48%;
   display: flex;
   align-items: center;
   gap: 1vw;
+}
+.mobile_service_section .article_img span {
+  font-size: 3.08vw;
+  letter-spacing: -0.2vw;
 }
 
 .mobile_service_section .article_img img {

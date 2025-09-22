@@ -20,7 +20,8 @@
 }
 .mobile_intro_section > p {
   width: 100%;
-  font-size: 5.13vw;
+  /* font-size: 5.13vw; */
+  font-size: 4.1vw;
   font-weight: 600;
   margin-top: 14vw;
   text-align: center;
@@ -44,7 +45,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  margin-bottom: 10vw;
+  margin-bottom: 15vw;
 }
 .mobile_intro_section .article_container .article .img_box {
   width: 15.38vw;
@@ -62,4 +63,5 @@
 .mobile_intro_section .article_container .article > p {
   font-size: 3.38vw;
   font-weight: 400;
+  letter-spacing: -0.3vw;
 }

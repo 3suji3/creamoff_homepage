@@ -167,6 +167,7 @@
   }
   .Footer_container .mobile_text p {
     font-size: 3.6vw;
-    margin-top: 1.44vw;
+    /* margin-top: 1.44vw; */
+    margin-top: 2vw;
   }
 }

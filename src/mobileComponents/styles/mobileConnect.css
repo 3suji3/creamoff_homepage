@@ -7,15 +7,18 @@
 
 .mobile_connect_section > p {
   width: 100%;
-  font-size: 5.13vw;
+  /* font-size: 5.13vw; */
+  font-size: 4.1vw;
   font-weight: 600;
   margin-top: 14vw;
   text-align: center;
 }
 
 .mobile_connect_section .form_container {
-  width: 100%;
+  /* width: 100%; */
+  width: 88.21%;
   height: 107vw;
+  margin: 0 auto;
   margin-top: 16.92vw;
   display: flex;
   justify-content: center;
@@ -53,17 +56,20 @@
   height: 6.15vw;
   border: none;
   background-color: #f5f5f5;
-  font-size: 2.87vw;
+  /* font-size: 2.87vw; */
+  font-size: 3.08vw;
   outline: none;
   border-radius: 1.03vw;
   padding-top: 0.4vw;
   padding-bottom: 0.4vw;
+  padding-left: 1.5vw;
 }
 
 .mobile_connect_section .form_container form input::placeholder {
   color: #757575;
   padding-left: 0.4vw;
-  font-size: 2.87vw;
+  /* font-size: 2.87vw; */
+  font-size: 3.08vw;
 }
 
 .mobile_connect_section .form_container form select {
@@ -71,9 +77,10 @@
   height: 6.15vw;
   border: 1px solid #1a1a1a;
   background-color: #fff;
-  font-size: 2.87vw;
+  /* font-size: 2.87vw; */
+  font-size: 3.08vw;
   border-radius: 1.02vw;
-  padding: 0.4vw 0 0.4vw 0.4vw;
+  padding: 0.4vw 0 0.4vw 1.5vw;
   appearance: none;
 }
 
@@ -85,7 +92,8 @@
 
 .mobile_connect_section .form_container form option {
   width: 100%;
-  font-size: 2.87vw;
+  /* font-size: 2.87vw; */
+  font-size: 3.08vw;
 }
 
 .mobile_connect_section .form_container form .message_box {
@@ -100,7 +108,12 @@
   outline: none;
   border-radius: 1.02vw;
   resize: none;
-  font-size: 2.87vw;
+  /* font-size: 2.87vw; */
+  font-size: 3.08vw;
+  /* color: red; */
+  padding-top: 0.4vw;
+  padding-bottom: 0.4vw;
+  padding-left: 1.5vw;
 }
 
 .mobile_connect_section .form_container form textarea::placeholder {
@@ -127,8 +140,9 @@
 }
 
 .mobile_connect_section p:nth-child(4) {
-  font-size: 4.41vw;
-  font-weight: 500;
+  /* font-size: 4.41vw; */
+  font-size: 3.08vw;
+  font-weight: 600;
 }
 
 .mobile_connect_section .sns_container {
@@ -138,7 +152,8 @@
   align-items: center;
   justify-content: flex-start;
   margin: 0 auto;
-  margin-top: 6.13vw;
+  /* margin-top: 6.13vw; */
+  margin-top: 10vw;
   margin-bottom: 30.77vw;
   flex-wrap: wrap;
   gap: 9.23vw;

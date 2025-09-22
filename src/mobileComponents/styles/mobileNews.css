@@ -5,6 +5,8 @@
   border: 1px solid #fff;
   display: flex;
   justify-content: center;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
 }
 
 .mobile_news_section .news_content {
@@ -25,12 +27,14 @@
 
 .mobile_news_section .news_content p:nth-child(1) {
   font-size: 5.13vw;
+  letter-spacing: -0.1vw;
   font-weight: 600;
 }
 
 .mobile_news_section .news_content p:nth-child(2) {
   width: 95.33%;
-  font-size: 3.49vw;
+  font-size: 3.08vw;
+  letter-spacing: -0.1vw;
   margin-top: 2.05vw;
   text-align: center;
 }
@@ -44,6 +48,8 @@
   margin-top: 6.15vw;
   background: none;
   border: 1px solid #fff;
+  color: white;
+  padding-left: 1.5vw;
 }
 
 .mobile_news_section .news_content input::placeholder {
@@ -59,7 +65,7 @@
 }
 
 .mobile_news_section .news_content button {
-  width: 77.95vw;
+  width: 79.5vw;
   height: 9.23vw;
   border-radius: 1.94vw;
   font-size: 3.49vw;
@@ -68,4 +74,6 @@
   border: none;
   outline: none;
   margin-top: 3.08vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }

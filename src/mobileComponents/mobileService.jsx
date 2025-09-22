@@ -37,7 +37,7 @@ const MobileService = () => {
       <div className="content">
         <p>반려동물 피부 질환 AI 검출</p>
         <div className="img_box">
-          <img src="./img/Service_10.png" alt="Pet wearable devices" />
+          <img src="./img/Service_11.png" alt="Pet wearable devices" />
         </div>
         <div className="article_container">
           <div className="article_img">
