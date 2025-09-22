@@ -5,7 +5,7 @@ const MobileHero = () => {
   return (
     <div className="mobile_hero_section">
       <div className="video_box">
-        <video autoPlay loop>
+        <video autoPlay loop muted>
           <source src="/Hero.mp4" type="video/mp4" />
         </video>
       </div>
