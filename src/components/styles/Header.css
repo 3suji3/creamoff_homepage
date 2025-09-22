@@ -57,7 +57,7 @@
 }
 
 .header_language {
-  width: 20vw;
+  width: 14.4vw;
 }
 
 .header_language select {
@@ -258,6 +258,7 @@
     display: none;
   }
   .header_language {
+    width: 20vw;
     height: auto;
   }
   .menu {
