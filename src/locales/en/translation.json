@@ -28,8 +28,6 @@
   },
   "intro": {
     "title": "Creamoff",
-    "intro_title1": "Cream-Off provides wearable devices 'Tailing' and AI-based skin diagnosis solutions through the pet healthcare brand 'Talktail',",
-    "intro_title2": "creating technology that removes complexity from everyday life and leaves only the essentials.",
     "company_name": {
       "value1": "Company name",
       "value2": "Cream-Off"
@@ -65,7 +63,7 @@
     },
     "ai_diagnosis": {
       "title": "AI Analysis of Pet Skin Diseases",
-      "description": "Talktail Skincare AI diagnoses pet skin with just one photo, predicts disease possibility through AI, and links to hospitals for non-face-to-face care solutions."
+      "description": "Talktail Care is a non-face-to-face care solution that analyzes your pet's skin with a single photo, delivers the results through trained AI, and then connects Talktail Solutions to a hospital."
     }
   },
   "connect": {

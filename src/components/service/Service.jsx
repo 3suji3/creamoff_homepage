@@ -12,7 +12,7 @@ const Service = () => {
           <div className="title">
             <p>{t("service.title")}</p>
           </div>
-          <p>{t("service.description")}</p>
+          <p>{t("mobile_service.subtitle")}</p>
         </div>
 
         <div className="article_box2">

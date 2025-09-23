@@ -11,9 +11,7 @@ const Intro = () => {
             <p>{t("intro.title")}</p>
           </div>
           <div className="content">
-            <p>{t("intro.intro_title1")}</p>
-            <br />
-            <p>{t("intro.intro_title2")}</p>
+            <p>{t("mobile_intro.subtitle")}</p>
           </div>
         </div>
         <div className="article_box2">

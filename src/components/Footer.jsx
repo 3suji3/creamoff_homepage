@@ -52,7 +52,7 @@ const Footer = () => {
             <p>{t("footer.copyright.text2")}</p>
           </div>
           <div>
-            <p>{t("footer.copyright.text3")}</p>
+            <p>{t("footer.contact_mobile.text4")}</p>
           </div>
         </div>
         <div className="mobile_text">
