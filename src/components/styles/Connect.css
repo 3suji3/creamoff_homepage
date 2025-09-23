@@ -9,7 +9,7 @@
 
 .Conect_container .article {
   width: 86.14vw;
-  height: 89.56vw;
+  height: 105.43vw;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -54,7 +54,7 @@
 
 .Conect_container .article_box2 > p {
   width: 100%;
-  font-size: 1.44vw;
+  font-size: 1.11vw;
   font-weight: 600;
 }
 

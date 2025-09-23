@@ -1,6 +1,6 @@
 .Partner_container {
   width: 100%;
-  height: 30.87vw;
+  height: 15.87vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,6 +24,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .Partner_container .partner_title {

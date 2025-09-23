@@ -255,15 +255,15 @@ span {
     height: auto;
   }
   .Hero_container .first_video_box {
-    width: 100vw;
-    height: 64.13vw;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: start;
   }
   .Hero_container .first_video_box video {
     width: 100%;
-    height: auto;
+    height: fit-content;
     align-items: start;
   }
   .Hero_container .first_text_box {

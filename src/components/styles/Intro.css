@@ -29,12 +29,6 @@
   text-align: center;
 }
 
-.Intro_container .article_box1 > p {
-  font-size: 1.04vw;
-  text-align: center;
-  margin-top: 2vw;
-}
-
 .title {
   width: 29.55vw;
   height: 3.47vw;
@@ -50,6 +44,15 @@
   width: 100%;
   color: #3aa1cd;
   font-weight: 600;
+}
+
+.Intro_container .article_box1 .content {
+  height: 3.24vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.24vw;
+  font-size: 1.04vw;
+  line-height: 0.8;
 }
 
 .Intro_container .article_box2 {
@@ -187,6 +190,7 @@
 .Intro_container .bg_box3 p {
   font-size: 0.84vw;
   margin-top: 1.2vw;
+  letter-spacing: -0.1vw;
 }
 
 .Intro_container .bg_box3 p:nth-child(3) {

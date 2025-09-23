@@ -35,7 +35,7 @@ const Service = () => {
               <div className="content_box2">
                 <div className="title_box">
                   <img src="/img/Service_1.png" alt="TalkTail" />
-                  <span>TalkTailing</span>
+                  <span>Tailing</span>
                 </div>
                 <p>{t("service.wearable.description")}</p>
 
@@ -46,25 +46,28 @@ const Service = () => {
                         src="/img/Service_3.svg"
                         alt={t("service.wearable.icons.heart_rate.alt")}
                       />
-                      <span>{t("service.wearable.icons.heart_rate.text")}</span>
+                      <span>{t("mobile_service.wearable.features.text1")}</span>
                     </div>
                     <div className="icon_box">
                       <img
                         src="/img/Service_4.svg"
                         alt={t("service.wearable.icons.notification.alt")}
                       />
-                      <span>
-                        {t("service.wearable.icons.notification.text")}
-                      </span>
+                      <span>{t("mobile_service.wearable.features.text2")}</span>
                     </div>
                     <div className="icon_box">
                       <img
                         src="/img/Service_5.svg"
                         alt={t("service.wearable.icons.app_connection.alt")}
                       />
-                      <span>
-                        {t("service.wearable.icons.app_connection.text")}
-                      </span>
+                      <span>{t("mobile_service.wearable.features.text3")}</span>
+                    </div>
+                    <div className="icon_box">
+                      <img
+                        src="/img/Service_5.svg"
+                        alt={t("service.wearable.icons.app_connection.alt")}
+                      />
+                      <span>{t("mobile_service.wearable.features.text4")}</span>
                     </div>
                   </div>
                 </div>

@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="Hero_container">
       <div className="article">
         <div className="first_video_box">
-          <video muted autoPlay loop>
+          <video muted autoPlay loop playsInline webkit-playsinline="true">
             <source src="/Hero.mp4" type="video/mp4" />
           </video>
         </div>

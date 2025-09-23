@@ -28,7 +28,8 @@
   },
   "intro": {
     "title": "Creamoff",
-    "intro_title": "Cream-Off provides wearable devices 'Tailing' and AI-based skin diagnosis solutions through the pet healthcare brand 'Talktail', creating technology that removes complexity from everyday life and leaves only the essentials.",
+    "intro_title1": "Cream-Off provides wearable devices 'Tailing' and AI-based skin diagnosis solutions through the pet healthcare brand 'Talktail',",
+    "intro_title2": "creating technology that removes complexity from everyday life and leaves only the essentials.",
     "company_name": {
       "value1": "Company name",
       "value2": "Cream-Off"
@@ -60,43 +61,12 @@
 
     "wearable": {
       "title": "Pet Wearable Device",
-      "description": "Tailing is a Talktail exclusive wearable device that measures pet vital data in real-time. It is a B2B-focused medical assistant device that increases both diagnostic accuracy and owner trust.",
-      "icons": {
-        "heart_rate": {
-          "alt": "Heart Rate",
-          "text": "Detects abnormal signs and alerts (real-time monitoring of temperature, heart rate, oxygen saturation, etc.)"
-        },
-        "notification": {
-          "alt": "Notification",
-          "text": "Hospital dashboard integration (automated treatment and customized notifications)"
-        },
-        "app_connection": {
-          "alt": "App Connection",
-          "text": "Owner app integration (planned)"
-        }
-      }
+      "description": "Tailing is a Talktail exclusive wearable device that measures pet vital data in real-time. It is a B2B-focused medical assistant device that increases both diagnostic accuracy and owner trust."
     },
     "ai_diagnosis": {
-      "title": "Pet Skin Disease AI Diagnosis",
-      "description": "Talktail Skincare AI diagnoses pet skin with just one photo, predicts disease possibility through AI, and links to hospitals for non-face-to-face care solutions.",
-      "icons": {
-        "analysis": {
-          "alt": "Analysis",
-          "text": "Image-based skin analysis (disease classification and prediction through deep learning)"
-        },
-        "upload": {
-          "alt": "Upload",
-          "text": "Easy image upload (diagnosis requests via app/web)"
-        },
-        "hospital": {
-          "alt": "Hospital",
-          "text": "Hospital connection system (direct connection to the most suitable hospital)"
-        }
-      }
+      "title": "AI Analysis of Pet Skin Diseases",
+      "description": "Talktail Skincare AI diagnoses pet skin with just one photo, predicts disease possibility through AI, and links to hospitals for non-face-to-face care solutions."
     }
-  },
-  "partner": {
-    "title": "Partners & Associates"
   },
   "connect": {
     "title": "Contact & SNS",

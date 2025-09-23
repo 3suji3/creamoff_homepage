@@ -41,7 +41,6 @@ function App() {
           <div id="service">
             <Service />
           </div>
-          <Partner />
           <div id="connect">
             <Connect />
           </div>

@@ -1,9 +1,6 @@
-import { useTranslation } from "react-i18next";
 import "../styles/Partner.css";
 
 const Partner = () => {
-  const { t } = useTranslation();
-
   const logos = [
     "/img/Partner_1.png", // 24시센트럴동물메디컬센터
     "/img/Partner_2.jpg", // 군산24시 제일동물병원
@@ -22,9 +19,6 @@ const Partner = () => {
     <div className="Partner_container">
       <div className="article">
         <div className="article_box">
-          <div className="partner_title">
-            <p>{t("partner.title")}</p>
-          </div>
           <div className="logo_container">
             <div className="logo_wrapper">
               <div className="logo_slider">

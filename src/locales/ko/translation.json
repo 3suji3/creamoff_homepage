@@ -28,7 +28,8 @@
   },
   "intro": {
     "title": "크림오프",
-    "intro_title": "Cream-Off는 반려동물 헬스케어 브랜드 ‘Talktail’을 통해 웨어러블 디바이스 ‘Tailing’과 AI 기반 피부 진단 솔루션을 제공하며, 일상 속 복잡함을 덜고 본질만을 남기는 기술을 만듭니다.",
+    "intro_title1": "Cream-Off는 반려동물 헬스케어 브랜드 ‘Talktail’을 통해 웨어러블 디바이스 ‘Tailing’과 AI 기반 피부 진단 솔루션을 제공하며,",
+    "intro_title2": "일상 속 복잡함을 덜고 본질만을 남기는 기술을 만듭니다.",
     "company_name": {
       "value1": "회사명",
       "value2": "크림오프"
@@ -60,43 +61,12 @@
 
     "wearable": {
       "title": "반려동물 웨어러블 디바이스",
-      "description": "Tailing은 반려동물의 생체 데이터를 실시간으로 측정하는 Talktail 전용 웨어러블 디바이스입니다. 동물병원을 위한 B2B 중심 공급 구조로, 진단의 정확도와 보호자의 신뢰를 모두 높이는 의료 보조 기기입니다.",
-      "icons": {
-        "heart_rate": {
-          "alt": "심박수",
-          "text": "이상 징후 감지 및 알림 (체온, 심박수, 산소포화도 등 실시간 모니터링)"
-        },
-        "notification": {
-          "alt": "알림",
-          "text": "병원 전용 대시보드 연동 (진료 자동화 및 맞춤 알림 제공)"
-        },
-        "app_connection": {
-          "alt": "앱 연동",
-          "text": "보호자용 앱 연동(예정)"
-        }
-      }
+      "description": "Tailing은 반려동물의 생체 데이터를 실시간으로 측정하는 Talktail 전용 웨어러블 디바이스입니다. 동물병원을 위한 B2B 중심 공급 구조로, 진단의 정확도와 보호자의 신뢰를 모두 높이는 의료 보조 기기입니다."
     },
     "ai_diagnosis": {
-      "title": "반려동물 피부 질환 AI 검출",
-      "description": "Talktail Skincare AI는 반려동물의 피부를 사진 한 장으로 진단하고, AI를 통해 질환 가능성을 예측한 뒤, 병원과 연계해주는 비대면 케어 솔루션입니다.",
-      "icons": {
-        "analysis": {
-          "alt": "분석",
-          "text": "이미지 기반 피부 분석(딥러닝 학습을 통한 질환 분류 및 예측)"
-        },
-        "upload": {
-          "alt": "업로드",
-          "text": "간편한 이미지 업로드(앱/웹을 통한 진단 요청)"
-        },
-        "hospital": {
-          "alt": "병원",
-          "text": "병원 연계 시스템(가장 적합한 병원으로 바로 연결)"
-        }
-      }
+      "title": "반려동물 피부 질환 AI 분석",
+      "description": "Talktail Skincare AI는 반려동물의 피부를 사진 한 장으로 진단하고, AI를 통해 질환 가능성을 예측한 뒤, 병원과 연계해주는 비대면 케어 솔루션입니다."
     }
-  },
-  "partner": {
-    "title": "파트너 & 협력사"
   },
   "connect": {
     "title": "연락처 & SNS",

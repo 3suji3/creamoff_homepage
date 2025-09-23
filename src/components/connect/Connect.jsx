@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "../styles/Connect.css";
 import axios from "axios";
+import Partner from "../partner/Partner";
 
 const Connect = () => {
   const { t } = useTranslation();
@@ -293,6 +294,7 @@ const Connect = () => {
               </a>
             </div>
           </div>
+          <Partner />
           <div className="newsletter_box">
             <p>{t("connect.newsletter.title")}</p>
             <p>{t("connect.newsletter.description")}</p>
