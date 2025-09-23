@@ -31,17 +31,23 @@ const Hero = () => {
           <div className="button_container">
             <div className="button_box">
               <div className="box1">
-                <span>{t("hero.button")}</span>
+                <a href="/Tailing_제품소개서.pdf">
+                  <span>{t("hero.button")}</span>
+                </a>
               </div>
             </div>
             <div className="button_box">
               <div className="box2">
-                <img src="/img/Hero_1.svg" alt="GooglePlay" />
-                <span>Google Play</span>
+                <a href="https://play.google.com/store/apps/details?id=com.talktail&pcampaignid=web_share">
+                  <img src="/img/Hero_1.svg" alt="GooglePlay" />
+                  <span>Google Play</span>
+                </a>
               </div>
               <div className="box2">
-                <img src="/img/Hero_3.svg" alt="AppStore" />
-                <span>App Store</span>
+                <a href="https://apps.apple.com/kr/app/talktail/id6746703880">
+                  <img src="/img/Hero_3.svg" alt="AppStore" />
+                  <span>App Store</span>
+                </a>
               </div>
             </div>
           </div>

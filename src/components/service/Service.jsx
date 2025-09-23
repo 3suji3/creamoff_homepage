@@ -1,6 +1,5 @@
 import "../styles/Service.css";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
 
 const Service = () => {
   const { t } = useTranslation();
@@ -72,9 +71,10 @@ const Service = () => {
                     </div>
                   </div>
                 </div>
-
                 <div className="more_button">
-                  <p>{t("service.more")}</p>
+                  <a href="/Tailing_제품소개서.pdf">
+                    <p>{t("service.more")}</p>
+                  </a>
                 </div>
               </div>
             </div>
