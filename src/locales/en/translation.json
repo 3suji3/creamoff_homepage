@@ -24,17 +24,17 @@
     "title3": "Pet Health",
     "title4": " Keep an eye on it",
     "description": "Cream-Off is a pet healthcare platform centered around ‘Talktail’, a wearable device ‘Tailing’, and an AI skin diagnostic solution, setting a new standard in health care.",
-    "button": "Discover the product →"
+    "button": "Learn more / View product →"
   },
   "intro": {
-    "title": "Creamoff",
+    "title": "About Us",
     "company_name": {
       "value1": "Company name",
       "value2": "Cream-Off"
     },
     "establishment_date": "Establishment Date",
     "headquarters": {
-      "value1": "Headquarters location",
+      "value1": "",
       "value2": "27 Sampoong-ro, Gyeongsan-si, Gyeongsangbuk-do"
     },
     "business_area": {
@@ -47,9 +47,9 @@
     },
     "core_values": {
       "value1": "Core values",
-      "value2": "We design simple, user-centered experiences.",
-      "value3": "We create new standards with a balance of technology and design.",
-      "value4": "We provide solutions that reduce complexity and increase efficiency."
+      "value2": "User-centered design",
+      "value3": "Balance of technology and design",
+      "value4": "Simple and useful solution"
     }
   },
   "service": {
@@ -67,7 +67,7 @@
     }
   },
   "connect": {
-    "title": "Contact & SNS",
+    "title": "Connect & SNS",
     "description": "If you have any questions or want to collaborate, feel free to reach out.",
     "subtitle": "Inquiries Built on Trust",
     "form": {
@@ -100,7 +100,7 @@
       "submit": "Submit"
     },
     "info": {
-      "title": "Contact Information",
+      "title": "Connect Information",
       "phone": {
         "title": "Phone Inquiry",
         "time": "Weekdays 09:00 - 18:00"

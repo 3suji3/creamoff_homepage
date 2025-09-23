@@ -104,8 +104,8 @@
 .Service_container .img_box p {
   position: absolute;
   font-size: 1.09vw;
-  color: #f0f8fb;
-  background-color: #3aa1cd;
+  color: #3aa1cd;
+  background-color: #fff;
   padding: 0.2vw 0.5vw;
   border-radius: 0.63vw;
   left: 0.14vw;

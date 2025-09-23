@@ -50,9 +50,8 @@
   height: 3.24vw;
   display: flex;
   flex-direction: column;
-  margin-top: 1.24vw;
+  margin-top: 2vw;
   font-size: 1.04vw;
-  line-height: 0.8;
 }
 
 .Intro_container .article_box2 {
@@ -190,12 +189,7 @@
 .Intro_container .bg_box3 p {
   font-size: 0.84vw;
   margin-top: 1.2vw;
-  letter-spacing: -0.1vw;
-}
-
-.Intro_container .bg_box3 p:nth-child(3) {
-  margin-top: 0;
-  font-size: 0.72vw;
+  letter-spacing: -0.05vw;
 }
 
 img,
