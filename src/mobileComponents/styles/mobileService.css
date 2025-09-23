@@ -38,14 +38,10 @@
 }
 
 .mobile_service_section .content .img_box {
-  width: 30.77vw;
-  height: 30.77vw;
+  width: 68.77vw;
+  height: 44.77vw;
   margin: 0 auto;
   margin-top: 8.2vw;
-}
-
-.mobile_service_section div:nth-child(4) .img_box {
-  width: 42.4vw;
 }
 
 .mobile_service_section .content .img_box img {

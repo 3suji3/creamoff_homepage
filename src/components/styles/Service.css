@@ -1,6 +1,6 @@
 .Service_container {
   width: 100%;
-  height: 50.88vw;
+  height: 52.88vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,7 +76,7 @@
 }
 
 .Service_container .content_box2 {
-  height: 15.8vw;
+  height: 16.8vw;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -89,7 +89,7 @@
 
 .Service_container .img_box {
   width: 100%;
-  height: 14.6vw;
+  height: 17.6vw;
   display: flex;
   position: relative;
 }
