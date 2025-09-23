@@ -9,7 +9,9 @@
 }
 .mobile_hero_section .video_box video {
   width: 100%;
-  height: fit-content;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .mobile_hero_section > p {
   width: 100%;
