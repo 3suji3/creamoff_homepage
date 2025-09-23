@@ -27,7 +27,7 @@ const Service = () => {
                   <p>{t("service.wearable.title")}</p>
                 </div>
                 <img
-                  src="/img/Service_10.png"
+                  src="/img/Service_10.jpg"
                   alt={t("service.wearable.title")}
                 />
               </div>
@@ -84,7 +84,7 @@ const Service = () => {
                 <div>
                   <p>{t("service.ai_diagnosis.title")}</p>
                 </div>
-                <img src="/img/Service_16.png" alt="img2" />
+                <img src="/img/Service_16.jpg" alt="img2" />
               </div>
 
               <div className="content_box2">

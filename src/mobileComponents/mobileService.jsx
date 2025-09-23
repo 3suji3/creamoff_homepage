@@ -11,7 +11,7 @@ const MobileService = () => {
       <div className="content">
         <p>{t("mobile_service.wearable.title")}</p>
         <div className="img_box">
-          <img src="./img/Service_10.png" alt="Pet wearable devices" />
+          <img src="./img/Service_10.jpg" alt="Pet wearable devices" />
         </div>
         <div className="article_container">
           <div className="article_img">
@@ -39,7 +39,7 @@ const MobileService = () => {
       <div className="content">
         <p>{t("mobile_service.ai_diagnosis.title")}</p>
         <div className="img_box">
-          <img src="./img/Service_16.png" alt="Pet wearable devices" />
+          <img src="./img/Service_16.jpg" alt="Pet wearable devices" />
         </div>
         <div className="article_container">
           <div className="article_img">
