@@ -84,11 +84,15 @@
 }
 
 .menu {
+  width: 6.15vw;
   display: none;
-  font-size: 6.15vw;
   cursor: pointer;
   position: relative;
   z-index: 1001;
+}
+
+.menu img {
+  width: 100%;
 }
 
 .mobile_menu {

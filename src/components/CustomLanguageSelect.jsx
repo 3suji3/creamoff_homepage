@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import "./styles/Header.css";
 
 const languages = [
-  { code: "", value: "", label: "", icon: "/img/Header_2.svg" },
+  { code: "", value: "KR", label: "", icon: "/img/Header_2.svg" },
   { code: "kr", value: "KR", label: "한국어", icon: "/img/KR.png" },
   { code: "en", value: "US", label: "English", icon: "/img/US.png" },
 ];
@@ -35,11 +35,7 @@ const CustomLanguageSelect = () => {
   return (
     <div className="custom_select" ref={dropdownRef}>
       <div className="selected" onClick={toggleOpen}>
-        <img
-          src="/img/Header_2.svg"
-          alt={selected.label}
-          className={`select ${selected.label === "" ? "no" : ""}`}
-        />
+        <img src="/img/Header_2.svg" alt={selected.label} className="select" />
         <span>{selected.value}</span>
       </div>
 

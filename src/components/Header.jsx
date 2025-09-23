@@ -45,7 +45,11 @@ const Header = () => {
           <CustomLanguageSelect />
         </div>
         <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen ? "✖" : "☰"}
+          {menuOpen ? (
+            <img src="/img/Header_4.svg" alt="x" />
+          ) : (
+            <img src="/img/Header_3.svg" alt="navigater" />
+          )}
         </div>
       </div>
       {/* 모바일 */}
