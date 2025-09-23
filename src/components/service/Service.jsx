@@ -43,28 +43,28 @@ const Service = () => {
                   <div className="icon_content">
                     <div className="icon_box">
                       <img
-                        src="/img/Service_3.svg"
+                        src="/img/Service_12.svg"
                         alt={t("service.wearable.icons.heart_rate.alt")}
                       />
                       <span>{t("mobile_service.wearable.features.text1")}</span>
                     </div>
                     <div className="icon_box">
                       <img
-                        src="/img/Service_4.svg"
+                        src="/img/Service_3.svg"
                         alt={t("service.wearable.icons.notification.alt")}
                       />
                       <span>{t("mobile_service.wearable.features.text2")}</span>
                     </div>
                     <div className="icon_box">
                       <img
-                        src="/img/Service_5.svg"
+                        src="/img/Service_13.svg"
                         alt={t("service.wearable.icons.app_connection.alt")}
                       />
                       <span>{t("mobile_service.wearable.features.text3")}</span>
                     </div>
                     <div className="icon_box">
                       <img
-                        src="/img/Service_5.svg"
+                        src="/img/Service_14.svg"
                         alt={t("service.wearable.icons.app_connection.alt")}
                       />
                       <span>{t("mobile_service.wearable.features.text4")}</span>
@@ -96,7 +96,7 @@ const Service = () => {
                     src="/img/Service_2.png"
                     alt={t("service.ai_diagnosis.name")}
                   />
-                  <span>Talktail</span>
+                  <span>Talktail Care</span>
                 </div>
                 <p>{t("service.ai_diagnosis.description")}</p>
 
@@ -108,7 +108,7 @@ const Service = () => {
                         alt={t("service.ai_diagnosis.icons.analysis.alt")}
                       />
                       <span>
-                        {t("service.ai_diagnosis.icons.analysis.text")}
+                        {t("mobile_service.ai_diagnosis.features.text1")}
                       </span>
                     </div>
                     <div className="icon_box">
@@ -116,7 +116,18 @@ const Service = () => {
                         src="/img/Service_7.svg"
                         alt={t("service.ai_diagnosis.icons.upload.alt")}
                       />
-                      <span>{t("service.ai_diagnosis.icons.upload.text")}</span>
+                      <span>
+                        {t("mobile_service.ai_diagnosis.features.text2")}
+                      </span>
+                    </div>
+                    <div className="icon_box">
+                      <img
+                        src="/img/Service_15.svg"
+                        alt={t("service.ai_diagnosis.icons.hospital.alt")}
+                      />
+                      <span>
+                        {t("mobile_service.ai_diagnosis.features.text3")}
+                      </span>
                     </div>
                     <div className="icon_box">
                       <img
@@ -124,7 +135,7 @@ const Service = () => {
                         alt={t("service.ai_diagnosis.icons.hospital.alt")}
                       />
                       <span>
-                        {t("service.ai_diagnosis.icons.hospital.text")}
+                        {t("mobile_service.ai_diagnosis.features.text4")}
                       </span>
                     </div>
                   </div>
