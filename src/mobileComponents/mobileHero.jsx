@@ -7,7 +7,7 @@ const MobileHero = () => {
   return (
     <div className="mobile_hero_section">
       <div className="video_box">
-        <video autoPlay loop muted>
+        <video autoPlay loop muted playsInline webkit-playsinline="true">
           <source src="/Hero.mp4" type="video/mp4" />
         </video>
       </div>
