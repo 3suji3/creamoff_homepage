@@ -2,7 +2,7 @@
   "header": {
     "about": "About Us",
     "solution": "Solutions",
-    "contact": "Contact",
+    "contact": "Connect",
     "language_change": "Language Change",
     "ko": "한국",
     "en": "English"
@@ -71,7 +71,7 @@
     "description": "If you have any questions or want to collaborate, feel free to reach out.",
     "subtitle": "Inquiries Built on Trust",
     "form": {
-      "title": "Get in Touch",
+      "title": "Contact",
       "name": {
         "label": "Name *",
         "placeholder": "Enter your name"
@@ -100,7 +100,7 @@
       "submit": "Submit"
     },
     "info": {
-      "title": "Connect Information",
+      "title": "Contact Information",
       "phone": {
         "title": "Phone Inquiry",
         "time": "Weekdays 09:00 - 18:00"
