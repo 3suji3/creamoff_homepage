@@ -39,7 +39,7 @@ const MobileService = () => {
       <div className="content">
         <p>{t("mobile_service.ai_diagnosis.title")}</p>
         <div className="img_box">
-          <img src="./img/Service_11.png" alt="Pet wearable devices" />
+          <img src="./img/Service_16.png" alt="Pet wearable devices" />
         </div>
         <div className="article_container">
           <div className="article_img">

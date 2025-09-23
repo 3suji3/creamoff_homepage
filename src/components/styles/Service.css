@@ -89,13 +89,9 @@
 
 .Service_container .img_box {
   width: 100%;
-  height: 13.6vw;
+  height: 14.6vw;
   display: flex;
   position: relative;
-}
-
-.Service_container .img_serve {
-  display: flex;
 }
 
 .Service_container .img_box img {
@@ -318,9 +314,6 @@ span {
   .Service_container .main_box div:nth-child(1) .img_box > div:nth-child(1) {
     display: none;
   }
-  .Service_container .main_box div:nth-child(2) .img_serve > div:nth-child(1) {
-    display: none;
-  }
   .Service_container .img_box {
     width: 100%;
     height: 100%;
@@ -332,11 +325,6 @@ span {
     left: auto;
     text-align: center;
     font-size: 3.08vw;
-  }
-  .Service_container .img_serve {
-    width: 94.87vw;
-    display: flex;
-    flex-direction: column;
   }
   .Service_container .content_box2 {
     height: 78.46vw;

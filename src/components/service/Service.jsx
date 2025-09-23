@@ -81,16 +81,10 @@ const Service = () => {
                 <p>{t("service.ai_diagnosis.title")}</p>
               </div>
               <div className="img_box">
-                <div className="img_serve">
-                  <div>
-                    <p>{t("service.ai_diagnosis.title")}</p>
-                  </div>
-                  <img
-                    src="/img/Service_9.png"
-                    alt={t("service.ai_diagnosis.title")}
-                  />
-                  <img src="/img/Service_11.png" alt="img2" />
+                <div>
+                  <p>{t("service.ai_diagnosis.title")}</p>
                 </div>
+                <img src="/img/Service_16.png" alt="img2" />
               </div>
 
               <div className="content_box2">
