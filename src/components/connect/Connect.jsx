@@ -24,11 +24,11 @@ const Connect = () => {
         message,
       });
       if (
-        name == "" ||
-        phone == "" ||
-        email == "" ||
-        inquiry == "" ||
-        message == ""
+        name === "" ||
+        phone === "" ||
+        email === "" ||
+        inquiry === "" ||
+        message === ""
       ) {
         alert("필수 문항을 입력해주세요.");
       } else if (response.status === 200) {
