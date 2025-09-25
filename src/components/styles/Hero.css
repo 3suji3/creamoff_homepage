@@ -78,7 +78,7 @@
 
 .Hero_container .box1 {
   width: 28vw;
-  height: 2vw;
+  height: 2.12vw;
   background-color: #3aa1cd;
   border-radius: 0.63vw;
   display: flex;
@@ -98,7 +98,7 @@
 
 .Hero_container .box2 {
   width: 13.72vw;
-  height: 2vw;
+  height: 2.12vw;
   color: #000;
   background-color: #fff;
   border-radius: 0.63vw;
