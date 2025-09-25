@@ -71,15 +71,16 @@ const Service = () => {
                     </div>
                   </div>
                 </div>
-                <div className="more_button">
-                  <a
-                    href="/Tailing_제품소개서.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+
+                <a
+                  href="/Tailing_제품소개서.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="more_button">
                     <p>{t("service.more")}</p>
-                  </a>
-                </div>
+                  </div>
+                </a>
               </div>
             </div>
 
@@ -146,15 +147,15 @@ const Service = () => {
                   </div>
                 </div>
 
-                <div className="more_button">
-                  <a
-                    href="https://www.talktail.co.kr/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                <a
+                  href="https://www.talktail.co.kr/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="more_button">
                     <p>{t("service.more")}</p>
-                  </a>
-                </div>
+                  </div>
+                </a>
               </div>
             </div>
           </div>

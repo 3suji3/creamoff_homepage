@@ -38,10 +38,18 @@ const Footer = () => {
             <div className="link_box">
               <p>{t("footer.legal.title")}</p>
               <div>
-                <p>{t("footer.legal.terms")}</p>
-                <p>{t("footer.legal.privacy")}</p>
-                <p>{t("footer.legal.cookies")}</p>
-                <p>{t("footer.legal.support")}</p>
+                <a href="#">
+                  <p>{t("footer.legal.terms")}</p>
+                </a>
+                <a href="#">
+                  <p>{t("footer.legal.privacy")}</p>
+                </a>
+                <a href="#">
+                  <p>{t("footer.legal.cookies")}</p>
+                </a>
+                <a href="#">
+                  <p>{t("footer.legal.support")}</p>
+                </a>
               </div>
             </div>
           </div>

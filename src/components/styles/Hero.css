@@ -73,17 +73,14 @@
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .Hero_container .box1 {
-  width: 100%;
+  width: 28vw;
   height: 2vw;
-  color: #fff;
   background-color: #3aa1cd;
   border-radius: 0.63vw;
-  padding: 0.2vw 0.4vw;
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,8 +88,16 @@
   cursor: pointer;
 }
 
+.Hero_container .box1 span {
+  width: 100%;
+  height: 2vw;
+  line-height: 2;
+  color: #fff;
+  text-align: center;
+}
+
 .Hero_container .box2 {
-  width: 48.22%;
+  width: 13.72vw;
   height: 2vw;
   color: #000;
   background-color: #fff;
