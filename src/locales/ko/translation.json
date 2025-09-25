@@ -78,7 +78,7 @@
       },
       "phone": {
         "label": "전화번호 *",
-        "placeholder": "010-0000-0000"
+        "placeholder": "000-0000-0000"
       },
       "email": {
         "label": "이메일 *",

@@ -179,6 +179,7 @@
   padding: 1.04vw;
   font-size: 1.04vw;
   margin-top: 1vw;
+  cursor: pointer;
 }
 
 .Conect_container .info_box {

@@ -23,14 +23,22 @@ const Connect = () => {
         inquiry,
         message,
       });
-      if (response.status === 200) {
+      if (
+        name == "" ||
+        phone == "" ||
+        email == "" ||
+        inquiry == "" ||
+        message == ""
+      ) {
+        alert("필수 문항을 입력해주세요.");
+      } else if (response.status === 200) {
         setName("");
         setPhone("");
         setEmail("");
         setInquiry("");
         setMessage("");
+        alert("성공적으로 문의하였습니다.");
       }
-      alert("성공적으로 문의하였습니다.");
     } catch (e) {
       console.error(e);
     }
