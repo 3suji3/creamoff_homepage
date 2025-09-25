@@ -30,7 +30,7 @@ const Connect = () => {
         inquiry === "" ||
         message === ""
       ) {
-        alert("필수 문항을 입력해주세요.");
+        alert("입력란을 다시 확인해 주세요.");
       } else if (response.status === 200) {
         setName("");
         setPhone("");
